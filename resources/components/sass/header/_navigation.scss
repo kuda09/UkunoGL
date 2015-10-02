@@ -1,0 +1,82 @@
+.navigation {
+  @include rem(margin-top, 20px);
+
+  ul {
+    list-style: none;
+    float: right;
+
+    > li {
+      font-weight: 900;
+    }
+
+
+    li {
+      display: inline-block;
+      text-transform: capitalize;
+      @include rem(margin-right, 30px);
+      position: relative;
+
+
+
+      &.current {
+
+        a {
+          border-bottom: 3px solid $green;
+        }
+
+      }
+
+      a {
+        @include rem(padding, 10px 5px);
+        display: block;
+        border-bottom: 3px solid $white;
+
+        &:hover {
+          text-decoration: none;
+          border-bottom: 3px solid $green;
+
+          ~ ul.dropdown {
+            display: block;
+          }
+        }
+      }
+
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 46px;
+        z-index: 100;
+        background-color: $white;
+
+        li {
+          display: block;
+          margin-right: 0;
+          border-bottom: 1px solid $grey;
+          display: block;
+          width: auto;
+          min-width: 202px;
+
+          a {
+
+            &:hover {
+              text-decoration: none;
+            }
+
+          }
+
+          &:hover {
+
+            border-bottom: 1px solid $green;
+          }
+        }
+      }
+    }
+  }
+
+}

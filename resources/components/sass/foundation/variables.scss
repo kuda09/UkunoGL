@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400italic,400|Open+Sans);
+
+//Font-Family
+$fontFamily: 'Open Sans', sans-serif;
+$fontHighlight: 'Cardo', serif;
+
+//Breakpoints
+$mediaMobilePortrait: '(min-width: 280px)';
+$mediaMobileLandscape: '(min-width: 280px) and (max-width: 520px)';
+$mediaTabletPortrait: '(min-width: 521px) and (max-width: 996px)';
+$mediaLargeDesktop: '(min-width: 1280px)';
+
+
+//colors
+$bodyColor: #000;
+$linkColor:#000;
+
+$green: #20C713;
+$blue: #138FC7;
+$grey: #798e9a;
+$white: #fff;
+
+
+
+$imagePath: '../images';
+

@@ -1,0 +1,19 @@
+{
+  "name": "UkunoGL",
+  "version": "0.0.1",
+  "author": "Kudakwashe Nyamainashe",
+  "dependencies": {
+    "font-awesome": "^4.4.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "jquery": "^2.1.4",
+    "matchdep": "~0.1.2",
+    "normalize.css": "^3.0.3",
+    "requirejs": "^2.1.20"
+  },
+  "devDependencies": {
+    "susy": "^2.2.6"
+  }
+}

@@ -1,0 +1,18 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "../../../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_grid-background";
+@import "../../../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-origin";
+@import "../../../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-clip";
+
+// ---------------------------------------------------------------------------
+// Susy Grid Background
+//
+// A wrapper for the compass "column-grid-background" mixin
+// Uses all your settings to create a grid background for a container element.
+// Note: Sub-pixel rounding can lead to several pixels of variation between browsers.
+@mixin susy-grid-background(){
+  @include column-grid-background($total-columns, column(), gutter(), 0);
+  @include background-origin(content-box);
+  @include background-clip(content-box);
+}

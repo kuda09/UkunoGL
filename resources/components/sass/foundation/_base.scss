@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  @include border-box-sizing;
+}
+
+$susy: (
+        flow: ltr,
+        math: fluid,
+        output: float,
+        gutter-position: split,
+        container: auto,
+        container-position: center,
+        columns: 12,
+        gutters: 0,
+        column-width: false,
+        global-box-sizing: border-box,
+        last-flow: to,
+        debug: (
+                image: hide,
+                color: rgba(#66f, .25),
+                output: background,
+                toggle: top right,
+        ),
+        use-custom: (
+                background-image: true,
+                background-options: false,
+                box-sizing: true,
+                clearfix: false,
+                rem: true,
+        )
+);
+
+html {
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  font-family: $fontFamily;
+  line-height: 1;
+  color: $bodyColor;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: inherit;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
+  &[disabled],
+  &.is-disabled {
+    cursor: auto;
+    text-decoration: none;
+  }
+}
+
+fieldset {
+  border: none;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+p {
+  @include rem(margin, 14px 0);
+}
+
+#{headings()} {
+  font-weight: normal;
+  margin: 1rem 0;
+
+}
+
+h1 {
+  @include rem(font-size, 24px);
+  text-transform: uppercase;
+}
+
+h2 {
+  @include rem(font-size, 22px);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  @include rem(font-size, 20px);
+}
+
+h4 {
+  @include rem(font-size, 18px);
+}
+
+h5 {
+  @include rem(font-size, 16px);
+}
+
+h6 {
+  @include rem(font-size, 14px);
+  font-weight: bold;
+}
+
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  outline: none;
+}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.container {
+  @include container(1024px);
+
+  @media #{$mediaTabletPortrait} {
+    @include container(100%);
+  }
+
+  @media #{$mediaMobileLandscape} {
+    @include container(100%);
+  }
+}
+
+hr {
+  background-color: #EFE8E8;
+  border : 0;
+  height: 1px;
+  margin-bottom: 8px;
+}
+
+
+.screen-reader-text {
+  display: none;
+}

@@ -1,0 +1,91 @@
+.hero {
+  background-image: url("#{$imagePath}/herobg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    position: relative;
+    min-height: 300px;
+
+  }
+
+  .heroText {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    @include rem(padding, 10px);
+    @include rem(height, 40px);
+    @include rem(font-size, 1.5rem);
+    text-transform: uppercase;
+    background-color: $blue;
+    color: $white;
+  }
+
+  .leadCapture {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    @include rem(padding, 10px);
+    @include rem(max-width, 300px);
+    @include rem(min-height, 350px);
+    background-color: $blue;
+    color: $white;
+
+  }
+}
+
+.homeMain {
+
+  @include rem(margin-top, 50px);
+
+  h1 {
+    font-family: $fontHighlight;
+    @include rem(font-size, 1.6rem);
+    @include rem(max-width, 600px);
+    text-transform: capitalize;
+  }
+
+  em {
+    color: $green;
+    @include rem(font-size, 1.2rem);
+    font-style: italic;
+  }
+
+  h2 {
+    font-family: $fontHighlight;
+    @include rem(font-size, 1.2rem);
+    text-transform: lowercase;
+    color: $grey;
+  }
+}
+
+.homeSection {
+  @include susy-clearfix;
+  .col {
+    @include span(1 of 3);
+
+    .wrapper {
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &:last-child {
+
+      .wrapper {
+        margin-right: 0;
+      }
+
+    }
+
+  }
+
+  h3 {
+    color: $white;
+    background-color: $blue;
+    @include rem(padding, 10px 0);
+
+  }
+}

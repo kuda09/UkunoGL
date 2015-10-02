@@ -1,0 +1,60 @@
+.siteHeader {
+  @include rem(padding, 20px);
+
+  .col {
+
+    &:first-child {
+      @include span(1 of 4);
+    }
+
+    &:last-child {
+      @include span(3 of 4 last);
+    }
+
+  }
+
+  .logoContainer {
+  }
+
+  .contactContainer {
+    display: inline;
+    text-align: right;
+
+    .headline {
+      font-family: $fontHighlight;
+      color: $grey;
+      @include rem(font-size, 1.4rem);
+    }
+
+    .tel {
+      @include rem(font-size, 1rem);
+
+      > a {
+        border-bottom: 2px solid $green;
+
+        &:hover {
+          text-decoration: none;
+        }
+
+      }
+    }
+    .socialIcons {
+      @include rem(padding-left, 30px);
+
+      a {
+        @include rem(margin , 0 10px);
+        @include rem(font-size, 1rem);
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          text-decoration: none;
+          color: $green;
+        }
+      }
+    }
+  }
+
+}
