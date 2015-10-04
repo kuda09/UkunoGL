@@ -1,0 +1,30 @@
+.siteFooter  {
+  @include rem(margin-top, 20px);
+
+
+  .footerRow1 {
+    border-bottom:  1px solid $grey;
+    border-top:  1px solid $grey;
+
+    @include rem(padding, 20px 0);
+  }
+
+  .footerRow2 {
+
+    @include rem(margin-top, 10px);
+
+    ul {
+      list-style: none;
+
+      li {
+
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+
+        @include rem(padding, 10px 20px );
+      }
+
+    }
+  }
+}

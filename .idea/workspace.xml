@@ -2,125 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/airplane-and-truck.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/herobg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/foundation/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_bleed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_box-sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_box-sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_breakpoint-plugin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_container.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/float/_container.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_container.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_context.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_direction.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/float/_end.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/footer/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/su/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/templates/project/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_gutters.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/header/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/foundation/_helpers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_inspect.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_isolate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/float/_isolate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_isolation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_margin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_margins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_margins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_output.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/shared/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_prefix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_rem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/foundation/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_rows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susyone/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/su/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/_shared.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_span.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/float/_span.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/_su.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/_su.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/_support.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/output/support/_support.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/_susy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/_susy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/_susyone.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/_susyone.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/su/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/language/susy/_validation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/sass/susy/su/_validation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/modules/buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/modules/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carriers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/lib/compass-susy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/eyeglass-exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/lib/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/lib/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/lib/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/templates/project/manifest.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/susy/templates/project/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/templates/project/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/susy/lib/susy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/foundation/variables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/components/sass/foundation/variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/UkunoGL.iml" afterPath="$PROJECT_DIR$/.idea/UkunoGL.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/footer/_footer.scss" afterPath="$PROJECT_DIR$/resources/components/sass/footer/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" afterPath="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/main.css" afterPath="$PROJECT_DIR$/resources/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/susy/templates/project/style.css" afterPath="$PROJECT_DIR$/resources/css/susy/templates/project/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UkunoGL.iws" />
@@ -148,8 +35,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3301887">
-                  <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+                <state vertical-scroll-proportion="1.7732342">
+                  <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -157,6 +44,7 @@
                     <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -258,20 +146,31 @@
                     <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2004717">
-                  <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
                   <folding>
                     <element signature="e#6#675#0" expanded="false" />
                     <element signature="e#687#1098#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/components/sass/footer/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6914498">
+                  <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -298,7 +197,6 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/resources/components/sass/footer/_footer.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/foundation/base.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/buttons.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/foundation/_reset.scss" />
@@ -316,8 +214,9 @@
         <option value="$PROJECT_DIR$/resources/components/sass/main.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_header.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resources/components/sass/footer/_footer.scss" />
       </list>
     </option>
   </component>
@@ -350,10 +249,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -378,8 +277,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -398,8 +295,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UkunoGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,7 +387,7 @@
       <recent name="C:\wamp\www\UkunoGL\resources\components\sass" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.gruntfile.js">
+  <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -485,24 +446,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1373802" sideWeight="0.8111111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14199395" sideWeight="0.6898305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1373802" sideWeight="0.18888889" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14199395" sideWeight="0.3101695" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20333333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20169492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22444445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2244898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,6 +486,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="231" selection-start-line="60" selection-start-column="231" selection-end-line="60" selection-end-column="231" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#675#0" expanded="false" />
+            <element signature="e#687#1098#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -600,6 +596,7 @@
             <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -626,6 +623,7 @@
             <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,16 +705,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/susy/lib/susy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/components/sass/footer/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -728,27 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize/lib/normalize/forms/buttons.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize/lib/normalize/forms/fix-font.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5818452">
-          <caret line="23" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -798,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.098214">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22051887">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,14 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -916,10 +875,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2004717">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="e#6#675#0" expanded="false" />
             <element signature="e#687#1098#0" expanded="false" />
@@ -929,8 +896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3301887">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="60" column="231" selection-start-line="60" selection-start-column="231" selection-end-line="60" selection-end-column="231" />
           <folding>
             <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -938,7 +905,16 @@
             <element signature="n#h1#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/components/sass/footer/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6914498">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

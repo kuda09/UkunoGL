@@ -67,9 +67,6 @@
     .wrapper {
       margin-right: 10px;
 
-      &:last-child {
-        margin-right: 0;
-      }
     }
 
     &:last-child {
@@ -85,7 +82,7 @@
   h3 {
     color: $white;
     background-color: $blue;
-    @include rem(padding, 10px 0);
+    @include rem(padding, 10px 5px);
 
   }
 }
