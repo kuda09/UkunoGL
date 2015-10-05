@@ -1,0 +1,54 @@
+
+.siteFooter  {
+  @include rem(margin-top, 20px);
+  font-family: $fontLight;
+
+
+  .footerRow1 {
+    border-bottom:  1px solid $lighterGrey;
+    border-top:  1px solid $lighterGrey;
+
+    @include rem(padding, 20px 0);
+  }
+
+  .footerRow2 {
+
+    @include rem(margin-top, 10px);
+
+    ul {
+      list-style: none;
+      display: inline-block;
+
+      li {
+
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: left;
+
+        @include rem(padding, 10px 20px );
+
+        &:hover {
+
+          text-decoration: none;
+          border-bottom: 3px solid $green;
+        }
+
+
+        &:first-child {
+
+          padding-left: 0;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+
+    }
+
+    .footerContent {
+      display: inline-block;
+      float: right;
+    }
+  }
+}

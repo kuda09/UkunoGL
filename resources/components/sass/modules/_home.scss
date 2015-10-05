@@ -61,15 +61,23 @@
 
 .homeSection {
   @include susy-clearfix;
+
+  font-family: $fontLight;
+  @include rem(font-size, 16px);
+
   .col {
     @include span(1 of 3);
+    @include border-box-sizing;
+
+    @media #{$mediaMobile} {
+
+      @include full;
+
+    }
+
 
     .wrapper {
       margin-right: 10px;
-
-      &:last-child {
-        margin-right: 0;
-      }
     }
 
     &:last-child {
@@ -85,7 +93,8 @@
   h3 {
     color: $white;
     background-color: $blue;
-    @include rem(padding, 10px 0);
+    @include rem(padding, 10px 10px);
+    font-family: $fontFamily;
 
   }
 }

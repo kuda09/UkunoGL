@@ -3,12 +3,22 @@
 
   .col {
 
+
+
     &:first-child {
       @include span(1 of 4);
+
+      @media #{$mediaMobile} {
+        @include full;
+      }
     }
 
     &:last-child {
       @include span(3 of 4 last);
+
+      @media #{$mediaMobile} {
+        @include full;
+      }
     }
 
   }
