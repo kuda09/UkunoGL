@@ -2,9 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="initial-scale=1">
+    <title>Sample Home Page</title>
+
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script data-main="resources/js/app" src="resources/js/require.js"></script>
 </head>
 <body>
+
+    <header class="siteHeader">
+        <div class="container">
+            <div class="col">
+                <div class="logoContainer">
+                    <a href="/" class="logo"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="contactContainer">
+                    <p class="headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <p class="tel">Telephone: <a href="tel:07896582805">078965828050</a>
+                <span class="socialIcons">
+                    <a href="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="google-plus"><i class="fa fa-google-plus"></i></a>
+                 </span>
+                    </p>
+                </div>
+                <nav class="navigation" role="navigation">
+
+                    <a href="#" class="mobileMenu"><i class="fa fa-bars"></i></a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdownContainer current">
+                            <a href="services.html">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="services.html/#something">something</a></li>
+                                <li><a href="services.html/#otherwise">otherwise</a></li>
+                                <li><a href="services.html/#anyhow">anyhow</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="carriers.html">Carriers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    require(["app/siteNavigation"], function (siteNavigation) {
+
+                        var runMobileMenu  = siteNavigation();
+                    })
+                </script>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+
+        <section class="hero heroServices">
+            <div class="container">
+                <div class="heroText">
+                    services
+                </div>
+            </div>
+        </section>
+
+        <section class="servicesMain">
+            <div class="container">
+                <div class="col">
+                    <ul class="servicesMenu">
+                        <li  data-service="0" data-state="open"><a href="#service-1">something</a></li>
+                        <li data-service="1" data-state="closed"><a href="#service-2">otherwise</a></li>
+                        <li data-service="2" data-state="closed"><a href="#service-3">anyhow</a></li>
+                    </ul>
+
+                </div>
+                <div class="col">
+
+                    <div class="service" data-service="0" data-state="open" id="service-0">
+
+                        <h2>something</h2>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+
+
+                    </div>
+
+                    <div class="service" data-service="1" data-state="closed" id="service-1">
+
+                        <h2>otherwise</h2>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    </div>
+
+
+                    <div class="service" data-service="2" data-state="closed" id="service-2">
+
+                        <h2>anyhow</h2>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <script>
+                require(["app/accordion"], function (accordion) {
+
+                    accordion();
+
+                })
+            </script>
+        </section>
+
+    </main>
+    <footer class="siteFooter">
+
+        <div class="footerRow1">
+
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea, id molestias optio quibusdam similique ullam veritatis voluptatum? Cumque iusto laborum minima minus vel voluptatum. At dolores error laboriosam perferendis.</p>
+            </div>
+
+        </div>
+        <div class="footerRow2">
+            <div class="container">
+                <ul class="footerMenu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="privacy-policy.html">privacy policy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                </ul>
+                <p class="footerContent">
+                    © UkunoGL 2015
+                </p>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 </html>

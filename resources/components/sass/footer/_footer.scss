@@ -1,12 +1,11 @@
 
-.siteFooter  {
+.siteFooter {
   @include rem(margin-top, 20px);
   font-family: $fontLight;
 
-
   .footerRow1 {
-    border-bottom:  1px solid $lighterGrey;
-    border-top:  1px solid $lighterGrey;
+    border-bottom: 1px solid $lighterGrey;
+    border-top: 1px solid $lighterGrey;
 
     @include rem(padding, 20px 0);
   }
@@ -25,14 +24,19 @@
         text-transform: capitalize;
         text-align: left;
 
-        @include rem(padding, 10px 20px );
+        @include rem(padding, 10px 20px);
+
+        @media #{$mediaMobile} {
+
+          @include rem(padding, 5px 5px);
+
+        }
 
         &:hover {
 
           text-decoration: none;
           border-bottom: 3px solid $green;
         }
-
 
         &:first-child {
 
@@ -48,7 +52,17 @@
 
     .footerContent {
       display: inline-block;
-      float: right;
+
+      @media #{$mediaMobile} {
+
+        float: left;
+
+      }
+
+      @media #{$mediaTabletDesktop}{
+        float: right;
+      }
+
     }
   }
 }

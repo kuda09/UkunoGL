@@ -1,6 +1,9 @@
 define(["jquery"], function ($) {
 
 
+    "use strict";
+
+
     var self;
     var ACTIVE_CLASS = 'active';
     var $context = '.navigation';

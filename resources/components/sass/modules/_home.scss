@@ -1,7 +1,5 @@
 .hero {
-  background-image: url("#{$imagePath}/herobg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: $blue;
 
   .container {
     position: relative;
@@ -17,32 +15,106 @@
     @include rem(height, 40px);
     @include rem(font-size, 1.5rem);
     text-transform: uppercase;
-    background-color: $blue;
+    background-color: rgba(88,182,104,0.7);
     color: $white;
+    @include rem(max-width, 340px);
+
+    @media #{$mediaMobile} {
+      left: 50%;
+      top: 0;
+      @include rem(margin-left, -170px);
+    }
+
+    @media #{$mediaMobileLandscape} {
+      left: 0;
+      top: 0;
+
+    }
   }
 
   .leadCapture {
     position: absolute;
     right: 0;
-    top: 100px;
+    bottom: -125px;
     @include rem(padding, 10px);
     @include rem(max-width, 300px);
-    @include rem(min-height, 350px);
-    background-color: $blue;
+    @include rem(min-height, 250px);
+    background-color: rgba(88,182,104,0.7);
     color: $white;
+
+    @media #{$mediaMobile} {
+      left: 50%;
+      @include rem(margin-left, -150px);
+    }
+
+    @media #{$mediaMobileLandscape} {
+
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 18px;
+    }
+
+    .trackingForm {
+      @include border-box-sizing;
+
+      input {
+        width: 100%;
+        border: 1px solid $green;
+        height: 40px;
+        padding: 0 10px;
+        border-radius: 1px;
+        color: #000;
+
+        margin-bottom: 20px;
+      }
+
+      .error {
+
+        color: $red;
+      }
+
+      button {
+        min-width: 200px;
+
+        @media #{$mediaMobile} {
+
+          width: 100%;
+          @include border-box-sizing;
+
+        }
+      }
+
+    }
 
   }
 }
 
+.heroMain {
+  background-image: url("#{$imagePath}/cargo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .homeMain {
 
   @include rem(margin-top, 50px);
+
+  @media #{$mediaMobile} {
+    @include rem(margin-top, 150px);
+
+  }
 
   h1 {
     font-family: $fontHighlight;
     @include rem(font-size, 1.6rem);
     @include rem(max-width, 600px);
     text-transform: capitalize;
+
+    @media #{$mediaMobileLandscape} {
+      @include rem(max-width, 250px);
+
+    }
   }
 
   em {
@@ -75,9 +147,13 @@
 
     }
 
-
     .wrapper {
       margin-right: 10px;
+
+      @media #{$mediaMobile} {
+        margin-right: 0;
+      }
+
     }
 
     &:last-child {
@@ -98,3 +174,89 @@
 
   }
 }
+
+.heroAbout {
+  background-color: $blue;
+  @include rem(margin-bottom, 50px);
+
+  .container {
+    position: relative;
+    min-height: 100px;
+  }
+}
+
+.heroServices {
+  background-color: $blue;
+  @include rem(margin-bottom, 50px);
+
+  .container {
+    position: relative;
+    min-height: 100px;
+  }
+}
+
+.aboutMain, .servicesMain, .contactPage {
+
+  .col {
+
+    @include span(1 of 3);
+    @include border-box-sizing;
+
+    &:last-child {
+
+      @include span(2 of 3);
+      @include rem(padding-left, 15px);
+    }
+  }
+}
+
+.servicesMain {
+
+  .servicesMenu {
+    list-style: none;
+    border: 1px solid $blue;
+
+    li {
+
+      @include rem(padding, 10px 20px);
+      text-transform: capitalize;
+    }
+
+    li[data-state=open] {
+      background-color: $blue;
+      color: $white;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  .service {
+    border: 1px solid $blue;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-top: 40px;
+  }
+
+  .service[data-state=closed] {
+    display: none;
+  }
+
+  .service[data-state=open]{
+    display: block;
+  }
+
+  h2 {
+    margin: 0;
+    background-color: $blue;
+    color: $white;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+}
+
+

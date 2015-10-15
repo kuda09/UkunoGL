@@ -33,7 +33,7 @@
 
                     <a href="#" class="mobileMenu"><i class="fa fa-bars"></i></a>
                     <ul>
-                        <li class="current"><a href="index.html.html">Home</a></li>
+                        <li class="current"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="dropdownContainer">
                             <a href="services.html">Services</a>
@@ -44,7 +44,7 @@
                             </ul>
                         </li>
                         <li><a href="carriers.html">Carriers</a></li>
-                        <li><a href="about.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -60,15 +60,34 @@
 
     <main role="main">
 
-        <section class="hero">
+        <section class="hero heroMain">
             <div class="container">
                 <div class="heroText">
                     Lorem ipsum dolor sit amet,
                 </div>
                 <div class="leadCapture">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores atque beatae dolorem dolorum excepturi facilis harum inventore magni maxime minus molestias provident quisquam, repellat soluta temporibus ullam veniam voluptatem?</p>
+                    <h3>Track your order</h3>
+                    <p>Enter your tracking number to view details about your order</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium dolor dolores dolorum hic, iure iusto libero magni maxime nesciunt odit omnis placeat quam quasi quis quos reprehenderit similique sit?</p>
+                    <form action="index.html" class="trackingForm" method="post">
+                        <label for="trackNumber">
+                            <input type="text" placeholder="Enter tracking number" id="trackNumber">
+                        </label>
+
+                        <button type="submit" class="btn btnPrimary" id="trackNumberButton">track</button>
+                        <p class="error">
+
+                        </p>
+                    </form>
+
+                    <script>
+
+                        require(["app/trackOrder"], function (trackOrder) {
+
+                            trackOrder();
+                        })
+                    </script>
+
                 </div>
             </div>
         </section>

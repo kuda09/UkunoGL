@@ -10,7 +10,7 @@ $fontLight: 'Open Sans Condensed', sans-serif;
 $mediaMobilePortrait: '(min-width: 280px)';
 $mediaMobile: '(max-width: 520px)';
 $mediaTabletDesktop: '(min-width: 521px)';
-$mediaMobileLandscape: '(min-width: 280px) and (max-width: 520px)';
+$mediaMobileLandscape: '(min-width: 521px) and (max-width: 675px)';
 $mediaTabletPortrait: '(min-width: 521px) and (max-width: 996px)';
 $mediaLargeDesktop: '(min-width: 1280px)';
 
@@ -19,9 +19,10 @@ $mediaLargeDesktop: '(min-width: 1280px)';
 $bodyColor: #000;
 $linkColor:#000;
 
-$green: #20C713;
-$blue: #138FC7;
+$green: #20c05c;
+$blue: #1C295F;
 $grey: #798e9a;
+$red: #ff050a;
 $lighterGrey: #dde3e6;
 
 $white: #fff;

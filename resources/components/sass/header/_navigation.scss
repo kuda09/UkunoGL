@@ -22,11 +22,14 @@
     float: right;
 
     @media #{$mediaMobile} {
-      display: none;
-      float: none;
+      max-height: 0;
+      @include transition(max-height, 0.5s ease-in-out);
+      overflow: hidden;
+      width: 100%;
 
       &.active {
-        display: block;
+        max-height: 800px;
+        width: 100%;
 
         li {
           margin-right: 0;
@@ -52,9 +55,15 @@
       text-transform: capitalize;
       @include rem(margin-right, 30px);
       position: relative;
+      border-bottom: 3px solid $white;
 
       @media #{$mediaMobile} {
         display: block;
+      }
+
+      @media #{$mediaMobileLandscape} {
+        @include rem(margin-right, 15px);
+
       }
 
       &.dropdownContainer {
@@ -64,7 +73,6 @@
           > a {
             display: block;
             position: relative;
-
 
             &:after {
               font-family: FontAwesome;
@@ -149,7 +157,10 @@
       }
 
       .dropdown {
-        display: none;
+        max-height: 0;
+        @include transition(max-height, 0.5s ease-in-out);
+        overflow: hidden;
+        width: 100%;
         position: absolute;
         left: 0;
         top: 100%;
@@ -160,7 +171,8 @@
         &.active {
 
           position: static;
-          display: block;
+          max-height: 120px;
+          width: 100%;
 
           li {
             @include rem(margin-left, 10px);
@@ -170,32 +182,32 @@
             }
           }
 
-
         }
 
-          li {
-            display: block;
-            margin-right: 0;
-            border-bottom: 1px solid $grey;
-            display: block;
-            width: auto;
-            min-width: 202px;
+        li {
+          display: block;
+          margin-right: 0;
+          border-bottom: 1px solid $grey;
+          display: block;
+          width: auto;
+          min-width: 202px;
 
-            a {
-
-              &:hover {
-                text-decoration: none;
-              }
-
-            }
+          a {
 
             &:hover {
-
-              border-bottom: 1px solid $green;
+              text-decoration: none;
+              border-bottom: none;
             }
+
+          }
+
+          &:hover {
+            text-decoration: none;
+            border-bottom: 1px solid $green;
           }
         }
       }
     }
-
   }
+
+}

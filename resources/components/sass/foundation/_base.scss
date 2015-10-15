@@ -67,7 +67,7 @@ a {
   color: $linkColor;
   text-decoration: none;
   &:focus, &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   &[disabled],
   &.is-disabled {
@@ -156,12 +156,17 @@ button {
 .container {
   @include container(1024px);
 
-  @media #{$mediaTabletPortrait} {
+  @media #{$mediaMobile} {
     @include container(100%);
+    @include rem(padding, 0 5px);
   }
 
   @media #{$mediaMobileLandscape} {
-    @include container(100%);
+    @include rem(padding, 0 5px);
+  }
+
+  @media #{$mediaTabletDesktop} {
+    @include rem(padding, 0 5px);
   }
 }
 

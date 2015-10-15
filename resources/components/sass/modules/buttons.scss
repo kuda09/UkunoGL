@@ -1,0 +1,31 @@
+.btn {
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  @include border-box-sizing;
+
+}
+
+.btnPrimary {
+  border: 1px solid $blue;
+  background-color: $blue;
+  color: $white;
+
+  &:hover {
+
+    @include transition(background-color, 0.5s ease-in-out );
+    background-color: darken($blue, 5);
+  }
+}
+
+.btnSecondary {
+  border: 1px solid $green;
+  background-color: $green;
+  color: $white;
+
+  &:hover {
+
+    @include transition(background-color, 0.5s ease-in-out );
+    background-color: darken($green, 5);
+  }
+}

@@ -2,12 +2,21 @@
 @import "compass/css3";
 @import "susy/sass/susy";
 
+@import "foundation/helpers";
+
+
 //lib
 @import "lib/font-awesome";
+@import "lib/bootstrap/variables";
+@import "lib/bootstrap/jumbotron";
+@import "lib/bootstrap/labels";
+@import "lib/bootstrap/panels";
+@import "lib/bootstrap/progress-bars";
+@import "lib/bootstrap/tables";
+@import "lib/bootstrap/wells";
 
 //foundation
 @import "foundation/reset";
-@import "foundation/helpers";
 @import "foundation/variables";
 @import "foundation/base";
 
@@ -21,6 +30,8 @@
 //modules
 @import "modules/buttons";
 @import "modules/home";
+@import "modules/contact";
+@import "modules/admin";
 
 
 
