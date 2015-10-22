@@ -5,12 +5,12 @@ define(["jquery"], function ($) {
         var self;
         var active = "active";
         var valid;
-        var $context = '.updateSingleOrder';
+        var $context = $('.updateSingleOrder');
         var nodes = {
-            $orderLocation: $('#orderLocation', $context),
-            $orderProgress: $('#orderProgress', $context),
-            $btn: $('button', $context),
-            $error: $('.error', $context)
+            $orderLocation: $('#orderLocation'),
+            $orderProgress: $('#orderProgress'),
+            $btn: $('button'),
+            $error: $('.error')
         }
 
         var errorMessage = {
@@ -28,7 +28,7 @@ define(["jquery"], function ($) {
         var setEvents = function () {
 
 
-            nodes.$btn.on('click', handleClientFormValidation)
+            $context.on('submit', handleClientFormValidation);
         }
 
 
@@ -47,6 +47,10 @@ define(["jquery"], function ($) {
             if (handleNodesValidation()) {
 
                 var convertOrderProgressToNumber = parseInt(nodes.$orderProgress.val());
+
+                nodes.$orderProgress.val(convertOrderProgressToNumber);
+
+                $context[0].submit();
 
             }
 

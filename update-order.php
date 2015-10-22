@@ -29,21 +29,19 @@ if (!isset($_SESSION['username'])) {
 
     <main role="main" class="dashBoardSingle">
         <div class="container">
-            <h2>Update Order</h2>
+            <h2>Update Order - <?php echo $_GET['name']; ?></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis deserunt dolore ea earum, mollitia quis rem sint suscipit veritatis. Assumenda, commodi, necessitatibus? A esse molestias nesciunt nostrum reprehenderit vel.</p>
-            <?php
 
-            require "includes/update_orders.php";
-            ?>
-
-            <form action="update-order.php" method="post" class="updateSingleOrder">
+            <form action="includes/update_orders.php" method="post" class="updateSingleOrder">
 
                 <div class="col">
                     <label for="orderLocation">Order Location</label>
-                    <input type="text" placeholder="Order Location" id="orderLocation">
+                    <input type="text" placeholder="Order Location" id="orderLocation" name="orderLocation">
 
                     <label for="orderProgress">Order Progress</label>
-                    <input type="text" placeholder="Order Progress" id="orderProgress">
+                    <input type="text" placeholder="Order Progress" id="orderProgress" name="orderProgress">
+
+                    <input type="hidden" name="orderID" value="<?php echo $_GET['id']?>">
 
                     <div class="error">
 

@@ -3,6 +3,16 @@
   @include rem(margin-top, 20px);
   font-family: $fontLight;
 
+
+  > div {
+
+    @media #{$mediaMobile} {
+
+      @include full;
+
+    }
+  }
+
   .footerRow1 {
     border-bottom: 1px solid $lighterGrey;
     border-top: 1px solid $lighterGrey;
@@ -17,6 +27,12 @@
     ul {
       list-style: none;
       display: inline-block;
+
+      @media #{$mediaMobile} {
+
+        @include full;
+
+      }
 
       li {
 

@@ -38,15 +38,9 @@ session_start();
                     <ul>
                         <li class="current"><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li class="dropdownContainer">
-                            <a href="services.html">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="services.html/#something">something</a></li>
-                                <li><a href="services.html/#otherwise">otherwise</a></li>
-                                <li><a href="services.html/#anyhow">anyhow</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="services.html">Services</a></li>
                         <li><a href="carriers.html">Carriers</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>

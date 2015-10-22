@@ -75,7 +75,6 @@ if (!isset($_SESSION['username'])) {
                     <input type="hidden" value="<?php echo $a; ?>" id="orderId" name="orderID">
 
 
-
                     <button type="submit" class="btn btnSecondary">Create new order</button>
 
                     <div class="error"></div>
@@ -84,24 +83,24 @@ if (!isset($_SESSION['username'])) {
 
                     if ($_SERVER['REQUEST_METHOD'] == "POST") :
 
-                    if ($connect->query($query) == TRUE) :
+                        if ($connect->query($query) == TRUE) :
 
 
-                        ?>
-                        <div class="success">
-                            <?php echo "You have created a new order successfully"; ?>
-                        </div>
-                    <?php else: ?>
-                        <div class="error">
-                            <?php
-                            echo "Error: " . $query . "<br>" . $connect->error;
                             ?>
-                        </div>
-                    <?php endif; ?>
+                            <div class="success">
+                                <?php echo "You have created a new order successfully"; ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="error">
+                                <?php
+                                echo "Error: " . $query . "<br>" . $connect->error;
+                                ?>
+                            </div>
+                        <?php endif; ?>
 
-                    <?php
+                        <?php
 
-                    $connect->close();
+                        $connect->close();
                     endif;
                     ?>
 
@@ -118,6 +117,10 @@ if (!isset($_SESSION['username'])) {
 
 
             </div>
+
+            <?php
+            require_once "includes/display_orders.php";
+            ?>
             <div class="col">
                 <h2>update an order status</h2>
 
@@ -129,16 +132,30 @@ if (!isset($_SESSION['username'])) {
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>
-                            Parcel to Nigeria
-                        </td>
-                        <td>
-                            <a class="btn btnSecondary" href="update-order.php">
-                                Update Order
-                            </a>
-                        </td>
-                    </tr>
+
+                    <?php
+
+                    while ($row = mysqli_fetch_assoc($select)) {
+                        ?>
+                        <tr>
+                            <td>
+                                <?php echo $row['order_name'] ?>
+                            </td>
+                            <td>
+                                <form action="update-order.php" method="get">
+
+                                    <input type="hidden" value="<?php echo $row['order_id'] ?>" name="id">
+                                    <input type="hidden" value="<?php echo $row['order_name'] ?>" name="name">
+                                    <button class="btn btnSecondary" type="submit">
+                                        Update Order
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+
+                        <?php
+                    }
+                    ?>
                     </tbody>
                 </table>
             </div>
@@ -148,9 +165,6 @@ if (!isset($_SESSION['username'])) {
             <div class="recentOrders">
                 <h2>recent orders</h2>
 
-                <?php
-                require_once "includes/display_orders.php";
-                ?>
 
                 <table class="table table-responsive table-bordered">
                     <thead>
@@ -166,17 +180,16 @@ if (!isset($_SESSION['username'])) {
                     <tbody>
                     <?php
 
-                    while ($row = mysqli_fetch_assoc($select)){
-
+                    while ($row = mysqli_fetch_assoc($select)) {
                         ?>
-                    <tr>
-                        <td>#<?php echo $row['order_id']?></td>
-                        <td><?php echo $row['order_name']  ?></td>
-                        <td><?php  echo $row['order_sender']?></td>
-                        <td><?php echo $row['order_progress'] ?></td>
-                    </tr>
+                        <tr>
+                            <td>#<?php echo $row['order_id'] ?></td>
+                            <td><?php echo $row['order_name'] ?></td>
+                            <td><?php echo $row['order_sender'] ?></td>
+                            <td><?php echo $row['order_progress'] ?></td>
+                        </tr>
 
-                    <?php
+                        <?php
                     }
                     ?>
                     </tbody>

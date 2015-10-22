@@ -184,6 +184,16 @@
     position: relative;
     min-height: 100px;
   }
+
+  @media #{$mediaMobile}{
+
+    .heroText {
+      left: 50%;
+      top: 75px;
+    }
+  }
+
+
 }
 
 .heroServices {
@@ -194,6 +204,14 @@
     position: relative;
     min-height: 100px;
   }
+
+  @media #{$mediaMobile}{
+
+    .heroText {
+      left: 50%;
+      top: 75px;
+    }
+  }
 }
 
 .aboutMain, .servicesMain, .contactPage {
@@ -202,11 +220,27 @@
 
     @include span(1 of 3);
     @include border-box-sizing;
+    
+    
+    @media #{$mediaMobile} {
+      
+      @include full;
+      
+    }
 
     &:last-child {
 
       @include span(2 of 3);
       @include rem(padding-left, 15px);
+
+      @media #{$mediaMobile} {
+
+        @include full;
+
+        padding-left: 0;
+
+      }
+
     }
   }
 }
@@ -239,6 +273,11 @@
     margin-bottom: 10px;
     position: relative;
     padding-top: 40px;
+
+    @media #{$mediaMobile} {
+
+      border-top: none;
+    }
   }
 
   .service[data-state=closed] {

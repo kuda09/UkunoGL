@@ -34,10 +34,24 @@
       font-family: $fontHighlight;
       color: $grey;
       @include rem(font-size, 1.4rem);
+
+
+      @media #{$mediaMobile} {
+
+        display: none;
+
+      }
     }
 
     .tel {
       @include rem(font-size, 1rem);
+
+
+      @media #{$mediaMobile} {
+
+        display: none;
+
+      }
 
       > a {
         border-bottom: 2px solid $green;
