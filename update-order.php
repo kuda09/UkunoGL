@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['username'])) {
+
+    header("Location: admin.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,39 +27,43 @@
         </div>
     </header>
 
-    <main role="main" class="dashBoard">
+    <main role="main" class="dashBoardSingle">
         <div class="container">
-            <div class="col">
-                <h2>create new order</h2>
-            </div>
-            <div class="col">
-                <h2>update an order status</h2>
-            </div>
-        </div>
+            <h2>Update Order</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis deserunt dolore ea earum, mollitia quis rem sint suscipit veritatis. Assumenda, commodi, necessitatibus? A esse molestias nesciunt nostrum reprehenderit vel.</p>
+            <?php
 
-        <div class="container">
-            <div class="recentOrders">
-                <h2>recent orders</h2>
+            require "includes/update_orders.php";
+            ?>
 
-                <table class="table table-responsive table-bordered">
-                    <thead>
-                    <tr>
-                        <td>Order_id</td>
-                        <td>Order Name</td>
-                        <td>Order Sender</td>
-                        <td>Order Status</td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>#123423</td>
-                        <td>First Order</td>
-                        <td>Kudakwashe Nyamainashe</td>
-                        <td>Delievered</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+            <form action="update-order.php" method="post" class="updateSingleOrder">
+
+                <div class="col">
+                    <label for="orderLocation">Order Location</label>
+                    <input type="text" placeholder="Order Location" id="orderLocation">
+
+                    <label for="orderProgress">Order Progress</label>
+                    <input type="text" placeholder="Order Progress" id="orderProgress">
+
+                    <div class="error">
+
+                    </div>
+
+                    <button type="submit" class="btn btnSecondary">Update order</button>
+                </div>
+                <div class="col">
+                    Historia, bulla, et luna.Velox exsul semper falleres sensorem est.Germanus, primus assimilatios foris promissio de noster, magnum epos.Decors congregabo in antverpia!Est rusticus humani generis, cesaris.
+                </div>
+
+            </form>
+
+            <script>
+
+                require(["app/updateOrder"], function (updateOrder) {
+
+                    updateOrder();
+                })
+            </script>
         </div>
     </main>
 
@@ -65,7 +78,7 @@
         <div class="footerRow2">
             <div class="container">
                 <ul class="footerMenu">
-                    <li><a href="index.html">home</a></li>
+                    <li><a href="index.php">home</a></li>
                     <li><a href="about.html">about</a></li>
                     <li><a href="services.html">services</a></li>
                     <li><a href="contact.html">contact</a></li>

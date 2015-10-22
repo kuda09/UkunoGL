@@ -181,3 +181,15 @@ hr {
 .screen-reader-text {
   display: none;
 }
+
+
+%inputs {
+  width: 100%;
+  border: 1px solid $grey;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 1px;
+  color: #000;
+
+  margin-bottom: 20px;
+}

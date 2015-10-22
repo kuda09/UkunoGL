@@ -77,3 +77,137 @@
 
   }
 }
+
+.createNewOrder {
+  
+  table {
+    
+    thead {
+
+      font-weight: bold;
+    }
+  }
+
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  button {
+
+    float: right;
+  }
+
+  input {
+    @extend %inputs
+
+  }
+
+  label[for=orderProgress]{
+
+    span {
+
+      font-size: 10px;
+    }
+    ~ input {
+
+      width: 50px;
+    }
+
+
+  }
+
+
+  textarea {
+    @extend %inputs;
+    height: auto;
+    padding: 10px 10px;
+  }
+
+  .error {
+    color: $red;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    @include susy-clearfix;
+
+    &.active {
+
+      display: block;
+    }
+  }
+
+  .success {
+    color: $green;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    @include susy-clearfix;
+  }
+}
+
+.updateOrder {
+
+  a {
+
+    float: right;
+    display: block;
+  }
+}
+
+.updateSingleOrder {
+
+  .col {
+
+    @include span(2 of 3);
+
+
+    &:first-child {
+
+      padding-right: 10px;
+    }
+
+    &:last-child {
+      @include span(1 of 3 last);
+
+      padding-left: 10px;
+    }
+  }
+
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  button {
+
+    float: right;
+  }
+
+  input {
+    @extend %inputs
+
+  }
+
+  .error {
+
+    display: none;
+    color: $red;
+    width: 100%;
+    display: block;
+    @include susy-clearfix;
+
+    &.active {
+
+      display: block;
+    }
+  }
+
+  .success {
+    color: $green;
+    width: 100%;
+    display: block;
+    @include susy-clearfix;
+  }
+
+}

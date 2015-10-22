@@ -23,90 +23,96 @@ define(["jquery"], function ($) {
         }
 
 
-        var init = function () {
+        return function (options) {
 
-            setEvents();
-        }
+            var options = $.extend(errorMessage, options);
 
-        var setEvents = function () {
+            var init = function () {
 
-
-            nodes.$btn.on('click', handleClientFormValidation)
-        }
-
-
-        var handleClientFormValidation = function (e) {
-
-
-            e.preventDefault();
-
-            nodes.$error
-                .removeClass(active)
-                .html("");
-
-            handleClientEmailValidation();
-            handleClientPasswordValidation()
-
-
-        }
-
-        var handleClientEmailValidation = function () {
-
-            valid = false;
-
-            var validateEmail = function (email) {
-
-                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-
-                return re.test(email);
-
+                setEvents();
             }
 
-            if (nodes.$email.val() === '') {
+            var setEvents = function () {
+
+
+                nodes.$btn.on('click', handleClientFormValidation)
+            }
+
+
+            var handleClientFormValidation = function (e) {
+
+
+                e.preventDefault();
 
                 nodes.$error
-                    .addClass(active)
-                    .html(errorMessage.IN_VALID_EMAIL);
+                    .removeClass(active)
+                    .html("");
+
+                handleClientEmailValidation();
+                handleClientPasswordValidation();
+
+
+                $context.submit();
+            }
+
+            var handleClientEmailValidation = function () {
+
+                valid = false;
+
+                var validateEmail = function (email) {
+
+                    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
+                    return re.test(email);
+
+                }
+
+                if (nodes.$email.val() === '') {
+
+                    nodes.$error
+                        .addClass(active)
+                        .html(options.IN_VALID_EMAIL);
+
+                    return valid;
+
+                } else if (!validateEmail(nodes.$email.val())) {
+
+
+                    nodes.$error
+                        .addClass(active)
+                        .html(options.NO_EMAIL);
+
+                    return valid;
+                }
+
+                valid = true;
 
                 return valid;
 
-            } else if (!validateEmail(nodes.$email.val())) {
+            }
+
+            var handleClientPasswordValidation = function () {
+
+                valid = false;
+
+                if (nodes.$password.val() === '') {
 
 
-                nodes.$error
-                    .addClass(active)
-                    .html(errorMessage.NO_EMAIL);
+                    nodes.$error
+                        .addClass(active)
+                        .html(nodes.$error.html() + "<br>" + options.NO_PASSWORD);
+
+                    return valid;
+                }
+
+                valid = true;
 
                 return valid;
             }
 
-            valid = true;
-
-            return valid;
+            return init();
 
         }
-
-        var handleClientPasswordValidation = function () {
-
-            valid = false;
-
-            if (nodes.$password.val() === '') {
-
-
-                nodes.$error
-                    .addClass(active)
-                    .html(nodes.$error.html() + "<br>" + errorMessage.NO_PASSWORD);
-
-                return valid;
-            }
-
-            valid = true;
-
-            return valid;
-        }
-
-
-        return init;
 
     }
 )

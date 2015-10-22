@@ -1,9 +1,18 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['order'])) {
+
+    header("Location: index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>Sample Home Page</title>
+    <title>Track order</title>
 
     <link rel="stylesheet" href="resources/css/main.css">
     <script data-main="resources/js/app" src="resources/js/require.js"></script>
@@ -33,7 +42,7 @@
 
                     <a href="#" class="mobileMenu"><i class="fa fa-bars"></i></a>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li class="current"><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="dropdownContainer">
                             <a href="services.html">Services</a>
@@ -44,55 +53,87 @@
                             </ul>
                         </li>
                         <li><a href="carriers.html">Carriers</a></li>
-                        <li class="current"><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
 
                 <script>
                     require(["app/siteNavigation"], function (siteNavigation) {
 
-                        var runMobileMenu = siteNavigation();
+                        var runMobileMenu  = siteNavigation();
                     })
                 </script>
             </div>
         </div>
     </header>
+
     <main role="main">
 
         <section class="hero heroAbout">
             <div class="container">
                 <div class="heroText">
-                    contact
+                    Track Order
                 </div>
             </div>
         </section>
 
-        <section class="contactPage">
-            <div class="container">
-                <div class="col">
-                    <h2>something here</h2>
+        <div class="container">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci esse, est excepturi ipsa omnis perspiciatis quis vero. Aut error in laborum quia repellendus rerum tempora. Autem, consequatur, itaque? Consequuntur, delectus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, architecto nostrum. Aliquid amet architecto, asperiores culpa, cupiditate dicta enim id impedit labore magnam modi numquam pariatur ratione, sapiente sed voluptatum?`</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci esse, est excepturi ipsa omnis perspiciatis quis vero. Aut error in laborum quia repellendus rerum tempora. Autem, consequatur, itaque? Consequuntur, delectus.</p>
 
-                </div>
-                <div class="col contactAside">
+            <?php
+                include_once "includes/retrieve_order.php";
+            ?>
 
-                    <h4>Vardags is a top matrimonial law firm with two offices at present: in the City overlooking St Paul’s and in the historic Cathedral streets of Winchester. Our contact details are:
-                    </h4>
+            <h2><?php  echo $db_name?></h2>
 
-                    <p>Address: 10 Old Bailey, London EC4M 7NG</p>
+            <table class="table table-responsive table-bordered table-striped">
+                <thead>
+                <tr>
+                    <td>Order Number</td>
+                    <td>Order Name</td>
+                    <td>Order Sent Date</td>
+                    <td>Order  Estimated Arrival Time</td>
+                    <td>Order Sender From Location</td>
+                    <td>Order Current Destination</td>
+                    <td>Order Destination</td>
+                </tr>
+                </thead>
 
-                    <p>This is also our address for service.</p>
+                <tbody>
+                <tr>
+                    <td># <?php  echo $id?></td>
+                    <td><?php  echo $db_name?></td>
+                    <td><?php  echo $db_date?></td>
+                    <td><?php  echo $db_arrival?></td>
+                    <td><?php  echo $db_destination?></td>
+                    <td><?php  echo $db_location?></td>
+                    <td><?php  echo $db_destination?></td>
+                </tr>
+                </tbody>
+            </table>
 
-                    <p>Tel: <a href="020 7477 2189">020 7477 2189</a> Email: <a href="mailto:ku-da@hotmail.co.uk">email us</a></p>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <?php  echo $db_progress?>%;">
+                    <span class="sr-only"><?php  echo $db_progress?>% Complete</span>
                 </div>
             </div>
-        </section>
 
+
+            <h3>Order Details</h3>
+
+            <p> <?php  echo $db_details?></p>
+
+
+
+        </div>
     </main>
+
     <footer class="siteFooter">
+
+
 
         <div class="footerRow1">
 

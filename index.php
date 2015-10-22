@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +36,7 @@
 
                     <a href="#" class="mobileMenu"><i class="fa fa-bars"></i></a>
                     <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
+                        <li class="current"><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="dropdownContainer">
                             <a href="services.html">Services</a>
@@ -67,15 +70,20 @@
                 </div>
                 <div class="leadCapture">
                     <h3>Track your order</h3>
-                    <p>Enter your tracking number to view details about your order</p>
+                    <p>Enter your six digit tracking number to view details about your order</p>
 
-                    <form action="index.html" class="trackingForm" method="post">
+
+                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="trackingForm" method="post">
                         <label for="trackNumber">
-                            <input type="text" placeholder="Enter tracking number" id="trackNumber">
+                            <input type="text" placeholder="Enter tracking number" id="trackNumber" name="orderID">
                         </label>
 
-                        <button type="submit" class="btn btnPrimary" id="trackNumberButton">track</button>
+                        <button type="submit" class="btn btnSecondary" id="trackNumberButton">track</button>
                         <p class="error">
+
+                            <?php
+                            require_once "includes/verify_order.php";
+                            ?>
 
                         </p>
                     </form>
@@ -150,7 +158,7 @@
         <div class="footerRow2">
             <div class="container">
                 <ul class="footerMenu">
-                    <li><a href="index.html">home</a></li>
+                    <li><a href="index.php">home</a></li>
                     <li><a href="about.html">about</a></li>
                     <li><a href="services.html">services</a></li>
                     <li><a href="contact.html">contact</a></li>
