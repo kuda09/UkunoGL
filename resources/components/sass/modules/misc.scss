@@ -1,0 +1,38 @@
+.faq-list {
+
+  dt {
+
+    color: $green;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+
+  }
+
+  dd {
+
+  }
+}
+
+.contentPages {
+
+  a {
+    text-decoration: underline;
+    color: $green;
+  }
+}
+
+.termsList {
+
+  list-style: circle;
+
+  li {
+
+    margin: 10px 0 10px 20px;
+
+    list-style-type: circle;
+    display: block;
+  }
+}

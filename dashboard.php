@@ -161,41 +161,6 @@ if (!isset($_SESSION['username'])) {
             </div>
         </div>
 
-        <div class="container">
-            <div class="recentOrders">
-                <h2>recent orders</h2>
-
-
-                <table class="table table-responsive table-bordered">
-                    <thead>
-                    <tr>
-                        <td>Order_id</td>
-                        <td>Order Name</td>
-                        <td>Order Sender</td>
-                        <td>Order Status</td>
-                    </tr>
-                    </thead>
-
-
-                    <tbody>
-                    <?php
-
-                    while ($row = mysqli_fetch_assoc($select)) {
-                        ?>
-                        <tr>
-                            <td>#<?php echo $row['order_id'] ?></td>
-                            <td><?php echo $row['order_name'] ?></td>
-                            <td><?php echo $row['order_sender'] ?></td>
-                            <td><?php echo $row['order_progress'] ?></td>
-                        </tr>
-
-                        <?php
-                    }
-                    ?>
-                    </tbody>
-                </table>
-            </div>
-        </div>
     </main>
 
     <footer class="siteFooter">
