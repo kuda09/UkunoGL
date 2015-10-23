@@ -4,7 +4,7 @@
 //Font-Family
 $fontFamily: 'Open Sans', sans-serif;
 $fontHighlight: 'Cardo', serif;
-$fontLight: 'Open Sans Condensed', sans-serif;
+$fontLight: 'Open Sans', sans-serif;
 
 //Breakpoints
 $mediaMobilePortrait: '(min-width: 280px)';
@@ -16,7 +16,7 @@ $mediaLargeDesktop: '(min-width: 1280px)';
 
 
 //colors
-$bodyColor: #000;
+$bodyColor: rgba(0,0,0,0.87);
 $linkColor:#000;
 
 $green: #20c05c;

@@ -34,11 +34,13 @@ $susy: (
 html {
   height: 100%;
   font-size: 14px;
+  font-size: 1.1em;
 }
 
 body {
   font-family: $fontFamily;
-  line-height: 1;
+  line-height: 1.666em;
+  font-weight: 400;
   color: $bodyColor;
 
 }
