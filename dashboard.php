@@ -103,6 +103,8 @@ if (!isset($_SESSION['username'])) {
                             ?>
                             <div class="success">
                                 <?php echo "You have created a new order successfully"; ?>
+
+                                <a href="view-orders.php" class="btn btnPrimary">view orders</a>
                             </div>
                         <?php else: ?>
                             <div class="error">
