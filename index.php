@@ -17,7 +17,7 @@ session_start();
         <div class="container">
             <div class="col">
                 <div class="logoContainer">
-                    <a href="/" class="logo"></a>
+                    <a href="/" class="logo"> <img src="resources/images/logo.jpg" alt="Ukinogl"></a>
                 </div>
             </div>
             <div class="col">
