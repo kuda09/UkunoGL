@@ -1,5 +1,5 @@
 # Switch rewrite engine off in case this was installed under HostPay.
-RewriteEngine Off
+RewriteEngine On
 
 SetEnv DEFAULT_PHP_VERSION 53
 
