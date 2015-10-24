@@ -102,7 +102,13 @@ if (!isset($_SESSION['username'])) {
 
                             ?>
                             <div class="success">
-                                <?php echo "You have created a new order successfully"; ?>
+                                <?php
+
+                                    echo "You have created a new order successfully" . "<br>";
+
+                                    echo "<p>" . "Your order id is " . $order_id . "</p>";
+
+                                ?>
 
                                 <a href="view-orders.php" class="btn btnPrimary">view orders</a>
                             </div>
