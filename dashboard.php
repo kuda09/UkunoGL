@@ -53,28 +53,28 @@ if (!isset($_SESSION['username'])) {
 
                 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="createNewOrder" method="post">
 
-                    <label for="orderName">Order Name</label>
+                    <label for="orderName"> Name</label>
                     <input type="text" placeholder="Order Name" id="orderName" name="orderName">
 
-                    <label for="orderSender">Order Sender</label>
+                    <label for="orderSender"> Sender</label>
                     <input type="text" placeholder="Order Sender" id="orderSender" name="orderSender">
 
-                    <label for="orderPickup">Order Pickup Place</label>
+                    <label for="orderPickup"> Pickup Place</label>
                     <input type="text" placeholder="Order Pickup Place" id="orderPickup" name="orderPickup">
 
-                    <label for="orderDestination">Order Destination</label>
+                    <label for="orderDestination"> Destination</label>
                     <input type="text" placeholder="Order Destination" id="orderDestination" name="orderDestination">
 
-                    <label for="orderArrival">Order Arrival</label>
+                    <label for="orderArrival"> Arrival</label>
                     <input type="date" placeholder="Order Arrival" id="orderArrival" name="orderArrival">
 
-                    <label for="orderPrice">Order Price</label>
+                    <label for="orderPrice"> Price</label>
                     <input type="text" placeholder="$9.00" id="orderPrice" name="orderPrice">
 
-                    <label for="orderProgress">Order Progress <span>The order progess must be a number between 0 and 100*</span></label>
+                    <label for="orderProgress"> Progress <span>The order progess must be a number between 0 and 100*</span></label>
                     <input type="text" placeholder="10" id="orderProgress" name="orderProgress">
 
-                    <label for="orderDetails">Order Details</label>
+                    <label for="orderDetails"> Details</label>
                     <textarea name="orderDetails" id="orderDetails" cols="30" rows="10"></textarea>
 
 
