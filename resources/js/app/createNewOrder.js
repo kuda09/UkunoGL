@@ -15,6 +15,7 @@ define(["jquery"], function ($) {
             $orderPrice: $('#orderPrice'),
             $orderCurrentDate: $('#currentDate'),
             $orderId: $('#orderId'),
+            $orderDetails: $('#orderDetails'),
             $btn: $('button'),
             $error: $('.error')
         }
@@ -26,7 +27,8 @@ define(["jquery"], function ($) {
             ORDER_PICKUP: "Please enter the order pickup",
             ORDER_DESTINATION: "Please enter the order destination",
             ORDER_ARRIVAL: "Please enter the order arrival",
-            ORDER_PRICE: "Please enter the order price"
+            ORDER_PRICE: "Please enter the order price",
+            ORDER_DETAILS: "Please enter the order details"
         }
 
 
@@ -112,6 +114,15 @@ define(["jquery"], function ($) {
                 nodes.$error
                     .addClass(active)
                     .html(errorMessage.ORDER_PRICE);
+
+                return valid;
+            }
+
+            if( nodes.$orderDetails.val() == ""){
+
+                nodes.$error
+                    .addClass(active)
+                    .html(errorMessage.ORDER_DETAILS);
 
                 return valid;
             }

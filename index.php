@@ -60,7 +60,7 @@ session_start();
         <section class="hero heroMain">
             <div class="container">
                 <div class="heroText">
-                    Lorem ipsum dolor sit amet,
+                    A Full service Transportation Company
                 </div>
                 <div class="leadCapture">
                     <h3>Track your order</h3>
