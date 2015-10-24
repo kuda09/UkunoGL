@@ -21,13 +21,24 @@ if (!isset($_SESSION['username'])) {
 
     <header class="dashBoardHeader">
         <div class="container">
-            <h1><?php echo $_SESSION['username'];?>'s Dashboard</h1>
 
+            <div class="col">
+                <div class="logoContainer">
+                    <a href="dashboard.php" class="logo"> <img src="resources/images/logo_alt.png" alt="Ukinogl"></a>
+                </div>
+            </div>
+
+            <div class="col">
+                <h1>Dashboard</h1>
+
+                <div class="buttons">
+                    <a href="view-orders.php"> View orders</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolorem eaque eius ipsam nihil odit temporibus? Debitis dicta eos ex nam, nesciunt repudiandae veritatis. Dignissimos dolores excepturi id nisi quaerat.</p>
 
-            <div class="buttons">
-                <a href="view-orders.php">View orders</a>
-            </div>
         </div>
     </header>
 
@@ -68,35 +79,37 @@ if (!isset($_SESSION['username'])) {
             <h3>To view order details click on the view order details button</h3>
             <button type="button" class="btn btnPrimary" id="viewOrderDetails"> View Order Details <i class="fa fa-info-circle"></i></button>
 
+            <?php
+                require "includes/view_details.php";
+            ?>
+
             <dl class="orderDetails updateSingleOrder">
                 <dt>Order Tracking Number</dt>
-                <dd><input type="text" value="145455" disabled name="orderId"></dd>
+                <dd><input type="text" value="<?php echo $row['order_id']; ?>" disabled name="orderId"></dd>
 
                 <dt>Order Name</dt>
-                <dd><input type="text" value="name" disabled name="orderName"></dd>
+                <dd><input type="text" value="<?php echo $row['order_name']; ?>" disabled name="orderName"></dd>
 
                 <dt>Order Sender</dt>
-                <dd><input type="text" value="name" disabled name="orderName"></dd>
+                <dd><input type="text" value="<?php echo $row['order_sender']; ?>" disabled name="orderSender"></dd>
 
                 <dt>Order Pickup Place</dt>
-                <dd><input type="text" value="name" disabled name="orderName"></dd>
+                <dd><input type="text" value="<?php echo $row['order_pickup']; ?>" disabled name="orderPickup"></dd>
 
                 <dt>Order Destination</dt>
-                <dd><input type="text" value="name" disabled name="orderName"></dd>
+                <dd><input type="text" value="<?php echo $row['order_destination']; ?>" disabled name="orderDestination"></dd>
 
                 <dt>Order Arrival</dt>
-                <dd><input type="text" value="23/02/12" disabled name="orderArrival"></dd>
+                <dd><input type="text" value="<?php echo $row['order_arrival']; ?>" disabled name="orderArrival"></dd>
 
                 <dt>Order Price</dt>
-                <dd><input type="text" value="£40.0" disabled name="orderPrice"></dd>
+                <dd><input type="text" value="$ <?php echo $row['order_price']; ?>" disabled name="orderPrice"></dd>
 
                 <dt>Order Current Progress</dt>
-                <dd><input type="text" value="33%" disabled name="orderProgress"></dd>
+                <dd><input type="text" value="<?php echo $row['order_progress']; ?>" disabled name="orderProgress"></dd>
 
                 <dt>Order Details</dt>
-                <dd><textarea name="orderDetails" id="orderDetails" cols="30" rows="10" disabled> something will be in here</textarea></dd>
-
-
+                <dd><textarea name="orderDetails" id="orderDetails" cols="30" rows="10" disabled> <?php echo $row['order_details']; ?></textarea></dd>
 
             </dl>
 

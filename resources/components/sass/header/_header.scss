@@ -6,7 +6,7 @@
 
 
     &:first-child {
-      @include span(1 of 4);
+      @include span(1 of 3);
 
       @media #{$mediaMobile} {
         @include full;
@@ -14,7 +14,7 @@
     }
 
     &:last-child {
-      @include span(3 of 4 last);
+      @include span(2 of 3 last);
 
       @media #{$mediaMobile} {
         @include full;
@@ -24,6 +24,8 @@
   }
 
   .logoContainer {
+
+    margin-top: 43px;
   }
 
   .contactContainer {

@@ -20,17 +20,27 @@ if (!isset($_SESSION['username'])) {
 
     <header class="dashBoardHeader">
         <div class="container">
-            <h1><?php echo $_SESSION['username'];?>'s Dashboard</h1>
+            <div class="col">
+                <div class="logoContainer">
+                    <a href="dashboard.php" class="logo"> <img src="resources/images/logo_alt.png" alt="Ukinogl"></a>
+                </div>
+            </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolorem eaque eius ipsam nihil odit temporibus? Debitis dicta eos ex nam, nesciunt repudiandae veritatis. Dignissimos dolores excepturi id nisi quaerat.</p>
+            <div class="col">
+                <h1>Dashboard</h1>
 
-            <div class="buttons">
-                <a href="view-orders.php">View orders</a>
+                <div class="buttons">
+                    <a href="view-orders.php"> View All Orders</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main role="main" class="dashBoard">
+        <div class="container">
+            <h1> Welcome <?php echo $_SESSION['username'];?> </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eos iste molestiae odio possimus quidem, tenetur voluptates? Aperiam architecto delectus hic nisi provident, quas saepe vitae? Dicta ratione repellat soluta!</p>
+        </div>
         <div class="container">
             <div class="col">
                 <h2>create new order</h2>
@@ -143,13 +153,13 @@ if (!isset($_SESSION['username'])) {
                         ?>
                         <tr>
                             <td>
-                                <?php echo $row['order_name'] ?>
+                                <?php echo $row['order_name'];?>
                             </td>
                             <td>
                                 <form action="update-order.php" method="get">
 
-                                    <input type="hidden" value="<?php echo $row['order_id'] ?>" name="id">
-                                    <input type="hidden" value="<?php echo $row['order_name'] ?>" name="name">
+                                    <input type="hidden" value="<?php echo $row['order_id']; ?>" name="id">
+                                    <input type="hidden" value="<?php echo $row['order_name'] ;?>" name="name">
                                     <button class="btn btnSecondary" type="submit">
                                         View or Update Order
                                     </button>
@@ -186,7 +196,7 @@ if (!isset($_SESSION['username'])) {
                     <li><a href="terms.html">Terms</a></li>
                 </ul>
                 <p class="footerContent">
-                    © UkunoGL 2015
+                    © UkinoGL 2015
                 </p>
             </div>
         </div>

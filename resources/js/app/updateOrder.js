@@ -10,7 +10,9 @@ define(["jquery"], function ($) {
             $orderLocation: $('#orderLocation'),
             $orderProgress: $('#orderProgress'),
             $btn: $('button'),
-            $error: $('.error')
+            $error: $('.error'),
+            $viewOrderDetailsButton: $('#viewOrderDetails'),
+            $OrderDetails: $('.orderDetails')
         }
 
         var errorMessage = {
@@ -29,6 +31,23 @@ define(["jquery"], function ($) {
 
 
             $context.on('submit', handleClientFormValidation);
+
+            nodes.$viewOrderDetailsButton.on('click', handleViewOrderButtonClick)
+
+        }
+
+        var handleViewOrderButtonClick = function () {
+
+            var $this = $(this);
+
+
+            if(nodes.$OrderDetails.hasClass('active')){
+
+                nodes.$OrderDetails.removeClass('active');
+            } else {
+                nodes.$OrderDetails.addClass('active');
+            }
+
         }
 
 
