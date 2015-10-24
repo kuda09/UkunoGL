@@ -12,7 +12,7 @@ if (!isset($_SESSION['order'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>Track order</title>
+    <title>Track order - Ukinogl.com</title>
 
     <link rel="stylesheet" href="resources/css/main.css">
     <script data-main="resources/js/app" src="resources/js/require.js"></script>
@@ -42,17 +42,11 @@ if (!isset($_SESSION['order'])) {
 
                     <a href="#" class="mobileMenu"><i class="fa fa-bars"></i></a>
                     <ul>
-                        <li class="current"><a href="index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li class="dropdownContainer">
-                            <a href="services.html">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="services.html/#something">something</a></li>
-                                <li><a href="services.html/#otherwise">otherwise</a></li>
-                                <li><a href="services.html/#anyhow">anyhow</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="services.html">Services</a></li>
                         <li><a href="carriers.html">Carriers</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -153,7 +147,7 @@ if (!isset($_SESSION['order'])) {
                     <li><a href="terms.html">Terms</a></li>
                 </ul>
                 <p class="footerContent">
-                    © UkunoGL 2015
+                    © UkinoGL 2015
                 </p>
             </div>
         </div>

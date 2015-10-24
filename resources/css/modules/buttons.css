@@ -4,7 +4,7 @@ Error: Undefined mixin 'border-box-sizing'.
         from line 5 of C:/wamp/www/UkunoGL/resources/components/sass/modules/buttons.scss
 
 1: .btn {
-2:   padding: 10px 5px;
+2:   padding: 10px 15px;
 3:   text-transform: uppercase;
 4:   font-size: 1.1em;
 5:   @include border-box-sizing;
@@ -75,4 +75,4 @@ C:/Ruby22-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'border-box-sizing'.\A         on line 5 of C:/wamp/www/UkunoGL/resources/components/sass/modules/buttons.scss, in `border-box-sizing'\A         from line 5 of C:/wamp/www/UkunoGL/resources/components/sass/modules/buttons.scss\A \A 1: .btn {\A 2:   padding: 10px 5px;\A 3:   text-transform: uppercase;\A 4:   font-size: 1.1em;\A 5:   @include border-box-sizing;\A 6: \A 7: }\A 8: \A 9: .btnPrimary {\A 10:   border: 1px solid $blue;"; }
+  content: "Error: Undefined mixin 'border-box-sizing'.\A         on line 5 of C:/wamp/www/UkunoGL/resources/components/sass/modules/buttons.scss, in `border-box-sizing'\A         from line 5 of C:/wamp/www/UkunoGL/resources/components/sass/modules/buttons.scss\A \A 1: .btn {\A 2:   padding: 10px 15px;\A 3:   text-transform: uppercase;\A 4:   font-size: 1.1em;\A 5:   @include border-box-sizing;\A 6: \A 7: }\A 8: \A 9: .btnPrimary {\A 10:   border: 1px solid $blue;"; }

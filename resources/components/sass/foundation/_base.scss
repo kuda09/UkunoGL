@@ -110,10 +110,12 @@ h2 {
 
 h3 {
   @include rem(font-size, 20px);
+  font-weight: 600;
 }
 
 h4 {
   @include rem(font-size, 18px);
+  font-weight: 600;
 }
 
 h5 {
@@ -188,8 +190,7 @@ hr {
 %inputs {
   width: 100%;
   border: 1px solid $grey;
-  height: 40px;
-  padding: 0 10px;
+  padding: 10px 10px;
   border-radius: 1px;
   color: #000;
 

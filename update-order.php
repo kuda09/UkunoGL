@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>Dashboard</title>
+    <title>Update Order - <?php echo $_GET['name']; ?> | Ukinogl.com</title>
 
     <link rel="stylesheet" href="resources/css/main.css">
     <script data-main="resources/js/app" src="resources/js/require.js"></script>
@@ -21,9 +21,13 @@ if (!isset($_SESSION['username'])) {
 
     <header class="dashBoardHeader">
         <div class="container">
-            <h1>Dashboard</h1>
+            <h1><?php echo $_SESSION['username'];?>'s Dashboard</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolorem eaque eius ipsam nihil odit temporibus? Debitis dicta eos ex nam, nesciunt repudiandae veritatis. Dignissimos dolores excepturi id nisi quaerat.</p>
+
+            <div class="buttons">
+                <a href="view-orders.php">View orders</a>
+            </div>
         </div>
     </header>
 
@@ -47,13 +51,54 @@ if (!isset($_SESSION['username'])) {
 
                     </div>
 
-                    <button type="submit" class="btn btnSecondary">Update order</button>
+                    <button type="submit" class="btn btnSecondary">Update order<i class="fa fa-pencil-square"></i></button>
+
+                    <hr>
+
+
                 </div>
                 <div class="col">
                     Historia, bulla, et luna.Velox exsul semper falleres sensorem est.Germanus, primus assimilatios foris promissio de noster, magnum epos.Decors congregabo in antverpia!Est rusticus humani generis, cesaris.
                 </div>
 
             </form>
+
+            <div class="clear"></div>
+
+            <h3>To view order details click on the view order details button</h3>
+            <button type="button" class="btn btnPrimary" id="viewOrderDetails"> View Order Details <i class="fa fa-info-circle"></i></button>
+
+            <dl class="orderDetails updateSingleOrder">
+                <dt>Order Tracking Number</dt>
+                <dd><input type="text" value="145455" disabled name="orderId"></dd>
+
+                <dt>Order Name</dt>
+                <dd><input type="text" value="name" disabled name="orderName"></dd>
+
+                <dt>Order Sender</dt>
+                <dd><input type="text" value="name" disabled name="orderName"></dd>
+
+                <dt>Order Pickup Place</dt>
+                <dd><input type="text" value="name" disabled name="orderName"></dd>
+
+                <dt>Order Destination</dt>
+                <dd><input type="text" value="name" disabled name="orderName"></dd>
+
+                <dt>Order Arrival</dt>
+                <dd><input type="text" value="23/02/12" disabled name="orderArrival"></dd>
+
+                <dt>Order Price</dt>
+                <dd><input type="text" value="£40.0" disabled name="orderPrice"></dd>
+
+                <dt>Order Current Progress</dt>
+                <dd><input type="text" value="33%" disabled name="orderProgress"></dd>
+
+                <dt>Order Details</dt>
+                <dd><textarea name="orderDetails" id="orderDetails" cols="30" rows="10" disabled> something will be in here</textarea></dd>
+
+
+
+            </dl>
 
             <script>
 
@@ -84,7 +129,7 @@ if (!isset($_SESSION['username'])) {
                     <li><a href="terms.html">Terms</a></li>
                 </ul>
                 <p class="footerContent">
-                    © UkunoGL 2015
+                    © UkinoGL 2015
                 </p>
             </div>
         </div>

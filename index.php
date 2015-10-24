@@ -108,28 +108,26 @@ session_start();
             <div class="container">
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Protecting your wealth</h3>
+                        <h3>Service Map</h3>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda dolore, harum iste odio pariatur quibusdam unde. A culpa, dolore doloribus hic itaque magni numquam pariatur, praesentium, temporibus velit voluptatibus?lorem
                         </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Protecting your wealth</h3>
+                        <h3>Safety & Compliance</h3>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda dolore, harum iste odio pariatur quibusdam unde. A culpa, dolore doloribus hic itaque magni numquam pariatur, praesentium, temporibus velit voluptatibus?lorem
                         </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Protecting your wealth</h3>
+                        <h3>Set Apart</h3>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda dolore, harum iste odio pariatur quibusdam unde. A culpa, dolore doloribus hic itaque magni numquam pariatur, praesentium, temporibus velit voluptatibus?lorem
+
                         </p>
                     </div>
                 </div>
@@ -160,7 +158,7 @@ session_start();
                     <li><a href="terms.html">Terms</a></li>
                 </ul>
                 <p class="footerContent">
-                    © UkunoGL 2015
+                    © UkinoGL 2015
                 </p>
             </div>
         </div>

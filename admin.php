@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             <form action="admin.php" method="post">
                 <h2>Admin Login</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloremque, laborum. Animi aut dolorem est ex fugit laborum, magni maxime necessitatibus non numquam officia qui quidem quod soluta vero voluptatem!</p>
+                <p>Login to create an new order or review orders</p>
                 <label>
                     <input type="text" placeholder="Enter your email address" name="email">
                 </label>

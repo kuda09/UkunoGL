@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>Dashboard</title>
+    <title>Dashboard - Ukinogl.com</title>
 
     <link rel="stylesheet" href="resources/css/main.css">
     <script data-main="resources/js/app" src="resources/js/require.js"></script>
@@ -20,9 +20,13 @@ if (!isset($_SESSION['username'])) {
 
     <header class="dashBoardHeader">
         <div class="container">
-            <h1>Dashboard</h1>
+            <h1><?php echo $_SESSION['username'];?>'s Dashboard</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolorem eaque eius ipsam nihil odit temporibus? Debitis dicta eos ex nam, nesciunt repudiandae veritatis. Dignissimos dolores excepturi id nisi quaerat.</p>
+
+            <div class="buttons">
+                <a href="view-orders.php">View orders</a>
+            </div>
         </div>
     </header>
 
@@ -147,7 +151,7 @@ if (!isset($_SESSION['username'])) {
                                     <input type="hidden" value="<?php echo $row['order_id'] ?>" name="id">
                                     <input type="hidden" value="<?php echo $row['order_name'] ?>" name="name">
                                     <button class="btn btnSecondary" type="submit">
-                                        Update Order
+                                        View or Update Order
                                     </button>
                                 </form>
                             </td>

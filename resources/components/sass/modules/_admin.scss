@@ -13,8 +13,7 @@
   input {
     width: 100%;
     border: 1px solid $green;
-    height: 40px;
-    padding: 0 10px;
+    padding: 10px 10px;
     border-radius: 1px;
     color: #000;
 
@@ -46,6 +45,33 @@
   background-color: $blue;
   color: $white;
   padding: 10px 0;
+
+  .buttons{
+
+    display: inline-block;
+    float: right;
+
+    a {
+
+      background-color: $white;
+      color: $bodyColor;
+      padding: 20px;
+      margin-top: 24px;
+      display: block;
+
+      &:hover {
+
+        background-color: darken($white, 5);
+      }
+    }
+  }
+
+  p {
+
+    display: inline-block;
+    float: left;
+    max-width: 60%;
+  }
 }
 
 .dashBoard {
@@ -179,10 +205,12 @@
     display: block;
   }
 
-  button {
+  hr {
 
-    float: right;
+    margin: 20px 0;
   }
+
+
 
   input {
     @extend %inputs
@@ -210,4 +238,30 @@
     @include susy-clearfix;
   }
 
+}
+
+.dashBoardSingle {
+
+  i {
+
+    margin-left: 10px;
+  }
+
+  .orderDetails {
+
+    @include susy-clearfix;
+    margin: 20px 0;
+
+    dt {
+
+      display: inline-block;
+      width: 25%;
+    }
+
+
+    dd {
+      display: inline-block;
+      width: 70%;
+    }
+  }
 }
