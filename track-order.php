@@ -30,7 +30,7 @@ if (!isset($_SESSION['order'])) {
                 <div class="contactContainer">
                     <p class="headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-                    <p class="tel">Telephone: <a href="tel:07896582805">078965828050</a>
+                    <p class="tel">Telephone: <a href="tel:+17184134530">(718) 413-4530</a>
                 <span class="socialIcons">
                     <a href="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="twitter"><i class="fa fa-twitter"></i></a>
