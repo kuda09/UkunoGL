@@ -87,28 +87,31 @@ if (!isset($_SESSION['username'])) {
                 <dt>Order Tracking Number</dt>
                 <dd><input type="text" value="<?php echo $row['order_id']; ?>" disabled name="orderId"></dd>
 
-                <dt>Order Name</dt>
+                <dt>Name</dt>
                 <dd><input type="text" value="<?php echo $row['order_name']; ?>" disabled name="orderName"></dd>
 
-                <dt>Order Sender</dt>
+                <dt>Sender</dt>
                 <dd><input type="text" value="<?php echo $row['order_sender']; ?>" disabled name="orderSender"></dd>
 
-                <dt>Order Pickup Place</dt>
+                <dt> Pickup Place</dt>
                 <dd><input type="text" value="<?php echo $row['order_pickup']; ?>" disabled name="orderPickup"></dd>
 
-                <dt>Order Destination</dt>
+                <dt>Destination</dt>
                 <dd><input type="text" value="<?php echo $row['order_destination']; ?>" disabled name="orderDestination"></dd>
 
-                <dt>Order Arrival</dt>
+                <dt>Date</dt>
+                <dd><input type="text" value="<?php echo $row['order_date']; ?>" disabled name="orderDate"></dd>
+
+                <dt>Arrival</dt>
                 <dd><input type="text" value="<?php echo $row['order_arrival']; ?>" disabled name="orderArrival"></dd>
 
-                <dt>Order Price</dt>
-                <dd><input type="text" value="$ <?php echo $row['order_price']; ?>" disabled name="orderPrice"></dd>
+                <dt>Price</dt>
+                <dd><input type="text" value="<?php echo $row['order_price']; ?>" disabled name="orderPrice"></dd>
 
-                <dt>Order Current Progress</dt>
+                <dt>Current Progress</dt>
                 <dd><input type="text" value="<?php echo $row['order_progress']; ?>" disabled name="orderProgress"></dd>
 
-                <dt>Order Details</dt>
+                <dt Details</dt>
                 <dd><textarea name="orderDetails" id="orderDetails" cols="30" rows="10" disabled> <?php echo $row['order_details']; ?></textarea></dd>
 
             </dl>
