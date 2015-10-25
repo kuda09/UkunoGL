@@ -11,3 +11,6 @@ RewriteCond %{HTTP_HOST}   !^$
 # Finally rewrite the request: end of rules, don't escape the output, and force a 301 redirect
 RewriteRule ^/?(.*)         http://www.ukinogl.com/$1 [L,R,NE]
 
+#get rid of trailing slashes
+RewriteCond %{HTTP_HOST} ^(www.)?ukinogl\.com$ [NC]
+RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]

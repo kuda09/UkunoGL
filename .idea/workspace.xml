@@ -1836,8 +1836,8 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29704303">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31989247">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -2485,7 +2485,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445814696893</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="htaccess upload">
+      <created>1445815344182</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1445815344182</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2989,8 +2995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29704303">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31989247">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
       </provider>
