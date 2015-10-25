@@ -110,7 +110,7 @@ if (!isset($_SESSION['username'])) {
 
                                 ?>
 
-                                <a href="view-orders.php" class="btn btnPrimary">view orders</a>
+                                <a href="update-order.php?id=<?php echo $order_id;?>" class="btn btnPrimary">view your order</a>
                             </div>
                         <?php else: ?>
                             <div class="error">
