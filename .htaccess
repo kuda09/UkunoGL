@@ -1,3 +1,5 @@
 Options +FollowSymlinks
 RewriteEngine on
 rewriterule ^index.php(.*)$ http://ukinogl.com/$1 [r=301,nc]
+rewriterule ^about.html(.*)$ http://ukinogl.com/about$1 [r=301,nc]
+rewriterule ^services.html(.*)$ http://ukinogl.com/services$1 [r=301,nc]
