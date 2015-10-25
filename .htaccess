@@ -1,20 +1,12 @@
-RewriteEngine on
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /www.ukinogl.com/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
-# Process all files as PHP by default
-DefaultType application/x-httpd-php
-# Fix sub-directory requests by allowing 'index' as a DirectoryIndex value
-DirectoryIndex index index.html
+RewriteRule . /www.ukinogl.com/index.php [L]
+</IfModule>
 
-# Force the domain to load with the www subdomain prefix
-# If the request doesn't start with www...
-RewriteCond %{HTTP_HOST}   !^www\.ukinogl\.com [NC]
-# And the site name isn't empty
-RewriteCond %{HTTP_HOST}   !^$
-# Finally rewrite the request: end of rules, don't escape the output, and force a 301 redirect
-RewriteRule ^/?(.*)         http://www.ukinogl.com/$1 [L,R,NE]
-
-#get rid of trailing slashes
-RewriteCond %{HTTP_HOST} ^(www.)?ukinogl\.com$ [NC]
-RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+# END WordPress
