@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" afterPath="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" afterPath="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/main.css" afterPath="$PROJECT_DIR$/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/foundation/variables.scss" afterPath="$PROJECT_DIR$/resources/components/sass/foundation/variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UkunoGL.iws" />
@@ -1826,11 +1823,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75766015">
+            <state vertical-scroll-proportion="-20.923077">
               <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.045698926">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -1914,7 +1921,6 @@
         <option value="$PROJECT_DIR$/update-order.php" />
         <option value="$PROJECT_DIR$/view-orders.php" />
         <option value="$PROJECT_DIR$/resources/js/app/createNewOrder.js" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_header.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/about.html" />
@@ -1929,6 +1935,7 @@
         <option value="$PROJECT_DIR$/resources/components/sass/foundation/variables.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -2460,7 +2467,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445714612311</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tablet styles modification">
+      <created>1445814355983</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1445814355983</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2542,7 +2555,8 @@
     <MESSAGE value="ht access upload" />
     <MESSAGE value="header mobile fix" />
     <MESSAGE value="addres update" />
-    <option name="LAST_COMMIT_MESSAGE" value="addres update" />
+    <MESSAGE value="tablet styles modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="tablet styles modification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2840,16 +2854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <marker date="1445696681120" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -2964,8 +2968,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75766015">
+        <state vertical-scroll-proportion="-20.923077">
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045698926">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>
