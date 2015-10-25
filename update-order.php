@@ -111,7 +111,7 @@ if (!isset($_SESSION['username'])) {
                 <dt>Current Progress</dt>
                 <dd><input type="text" value="<?php echo $row['order_progress']; ?>" disabled name="orderProgress"></dd>
 
-                <dt Details</dt>
+                <dt> Details</dt>
                 <dd><textarea name="orderDetails" id="orderDetails" cols="30" rows="10" disabled> <?php echo $row['order_details']; ?></textarea></dd>
 
             </dl>

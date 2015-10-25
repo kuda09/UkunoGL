@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="inserting the date value for">
+    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update-order.php" afterPath="$PROJECT_DIR$/update-order.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -1826,8 +1826,8 @@
       <file leaf-file-name="update-order.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update-order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5682451">
-              <caret line="102" column="113" selection-start-line="102" selection-start-column="113" selection-end-line="102" selection-end-column="113" />
+            <state vertical-scroll-proportion="0.61559886">
+              <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -2537,7 +2537,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445816431495</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="inserting the date value for update-order.php file">
+      <created>1445816468888</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1445816468888</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2621,7 +2627,8 @@
     <MESSAGE value="addres update" />
     <MESSAGE value="tablet styles modification" />
     <MESSAGE value="htaccess upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="htaccess upload" />
+    <MESSAGE value="inserting the date value for update-order.php file" />
+    <option name="LAST_COMMIT_MESSAGE" value="inserting the date value for update-order.php file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3039,8 +3046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5682451">
-          <caret line="102" column="113" selection-start-line="102" selection-start-column="113" selection-end-line="102" selection-end-column="113" />
+        <state vertical-scroll-proportion="0.61559886">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
           <folding />
         </state>
       </provider>
