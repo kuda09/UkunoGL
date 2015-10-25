@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update-order.php" afterPath="$PROJECT_DIR$/update-order.php" />
+    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="inserting the date value for update-order.php file">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" afterPath="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/main.css" afterPath="$PROJECT_DIR$/resources/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UkunoGL.iws" />
@@ -1803,16 +1804,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.807693">
-              <caret line="82" column="114" selection-start-line="82" selection-start-column="114" selection-end-line="82" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -1823,12 +1814,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update-order.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update-order.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update-order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61559886">
+            <state vertical-scroll-proportion="-3.9230769">
               <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="31.384615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1445647907251" expanded="true" signature="456:506" placeholder="SELECT * FRO..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_contact.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_admin.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_admin.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4972145">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#1232#1576#0" expanded="false" />
+                <element signature="e#1594#2291#0" expanded="false" />
+                <element signature="e#2306#2359#0" expanded="false" />
+                <element signature="e#2380#2964#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1927,7 +1955,6 @@
         <option value="$PROJECT_DIR$/includes/update_orders.php" />
         <option value="$PROJECT_DIR$/includes/view_details.php" />
         <option value="$PROJECT_DIR$/view_orders.php" />
-        <option value="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
         <option value="$PROJECT_DIR$/view-orders.php" />
         <option value="$PROJECT_DIR$/resources/js/app/createNewOrder.js" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_header.scss" />
@@ -1946,6 +1973,7 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/update-order.php" />
+        <option value="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
       </list>
     </option>
   </component>
@@ -2543,7 +2571,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445816468888</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="inserting the date value for update-order.php file">
+      <created>1445816775979</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1445816775979</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2643,13 +2677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize/lib/normalize/forms/fix-font.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5818452">
@@ -2801,16 +2828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <marker date="1445647907251" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/foundation/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.923077">
@@ -2879,20 +2896,6 @@
         <state vertical-scroll-proportion="0.5733945">
           <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_admin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.675841">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-          <folding>
-            <element signature="e#12#600#0" expanded="false" />
-            <element signature="e#1251#1595#0" expanded="false" />
-            <element signature="e#1613#2310#0" expanded="false" />
-            <element signature="e#2325#2378#0" expanded="false" />
-            <element signature="e#2399#2983#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3046,9 +3049,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61559886">
+        <state vertical-scroll-proportion="-3.9230769">
           <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="31.384615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1445647907251" expanded="true" signature="456:506" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_admin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4972145">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#1232#1576#0" expanded="false" />
+            <element signature="e#1594#2291#0" expanded="false" />
+            <element signature="e#2306#2359#0" expanded="false" />
+            <element signature="e#2380#2964#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
