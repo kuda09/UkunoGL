@@ -67,6 +67,11 @@
 
       }
 
+      @media #{$mediaMobilePortrait} {
+
+        margin-right: 5px;
+      }
+
 
       &.current {
 

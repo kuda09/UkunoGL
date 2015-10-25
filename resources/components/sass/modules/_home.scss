@@ -20,7 +20,7 @@
     @include rem(max-width, 600px);
 
     @media #{$mediaMobile} {
-      left: 50%;
+      left: 60%;
       top: 0;
       @include rem(margin-left, -170px);
     }
@@ -28,7 +28,12 @@
     @media #{$mediaMobileLandscape} {
       left: 0;
       top: 0;
+    }
 
+    @media #{$mediaMobilePortrait} {
+
+      left: 0;
+      top: 0;
     }
   }
 
@@ -188,7 +193,7 @@
   @media #{$mediaMobile}{
 
     .heroText {
-      left: 50%;
+      left: 60%;
       top: 75px;
     }
   }
@@ -210,7 +215,7 @@
   @media #{$mediaMobile}{
 
     .heroText {
-      left: 50%;
+      left: 60%;
       top: 75px;
     }
   }

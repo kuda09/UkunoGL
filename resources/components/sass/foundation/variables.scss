@@ -11,13 +11,13 @@ $mediaMobilePortrait: '(min-width: 280px)';
 $mediaMobile: '(max-width: 520px)';
 $mediaTabletDesktop: '(min-width: 521px)';
 $mediaMobileLandscape: '(min-width: 521px) and (max-width: 675px)';
-$mediaTabletPortrait: '(min-width: 521px) and (max-width: 996px)';
+$mediaTabletPortrait: 'only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)';
+$mediaTabletLandscape: 'only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)';
 $mediaLargeDesktop: '(min-width: 1280px)';
 
-
 //colors
-$bodyColor: rgba(0,0,0,0.87);
-$linkColor:#000;
+$bodyColor: rgba(0, 0, 0, 0.87);
+$linkColor: #000;
 
 $green: #20c05c;
 $blue: #1C295F;
@@ -26,8 +26,6 @@ $red: #ff050a;
 $lighterGrey: #dde3e6;
 
 $white: #fff;
-
-
 
 $imagePath: '../images';
 
