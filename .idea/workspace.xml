@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
+    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="inserting the date value for">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update-order.php" afterPath="$PROJECT_DIR$/update-order.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -1826,8 +1826,8 @@
       <file leaf-file-name="update-order.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update-order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54456824">
-              <caret line="102" column="73" selection-start-line="102" selection-start-column="73" selection-end-line="102" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.5682451">
+              <caret line="102" column="113" selection-start-line="102" selection-start-column="113" selection-end-line="102" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -2531,7 +2531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445816175008</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="htaccess upload">
+      <created>1445816431495</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1445816431495</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3033,8 +3039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54456824">
-          <caret line="102" column="73" selection-start-line="102" selection-start-column="73" selection-end-line="102" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.5682451">
+          <caret line="102" column="113" selection-start-line="102" selection-start-column="113" selection-end-line="102" selection-end-column="113" />
           <folding />
         </state>
       </provider>
