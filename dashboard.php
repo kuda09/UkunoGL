@@ -157,17 +157,15 @@ if (!isset($_SESSION['username'])) {
 
                     <?php
 
-                    if(!$select ){
+                    $row = mysqli_fetch_assoc($select);
+
+                    if(!$row ){
 
                         echo "No current orders in the database";
 
                     } else {
 
-                    while ($row = mysqli_fetch_assoc($select)) {
-
-
-
-
+                    while ($row) {
 
                         ?>
                         <tr>
