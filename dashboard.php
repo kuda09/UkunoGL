@@ -166,7 +166,7 @@ if (!isset($_SESSION['username'])) {
                     </thead>
                     <tbody>
                     <?php
-                    while ($row) {
+                    while ($row = mysqli_fetch_assoc($select)) {
 
                         ?>
                         <tr>
