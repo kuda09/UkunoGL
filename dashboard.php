@@ -144,11 +144,6 @@ if (!isset($_SESSION['username'])) {
             ?>
             <div class="col">
                 <h2>update an order status</h2>
-                <?php
-
-                $row = mysqli_fetch_assoc($select);
-
-                ?>
 
                 <?php if (!$row) : ?>
 
@@ -163,7 +158,7 @@ if (!isset($_SESSION['username'])) {
                         </tr>
                         </thead>
                         <tbody>
-                        <?php while ($row) { ?>
+                        <?php while ($row = mysqli_fetch_assoc($select)) { ?>
                             <tr>
                                 <td>
                                     <?php echo $row['order_name']; ?>
