@@ -1796,8 +1796,18 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17130919">
-              <caret line="145" column="47" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.3844011">
+              <caret line="172" column="15" selection-start-line="172" selection-start-column="15" selection-end-line="173" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysqli.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-382.8846">
+              <caret line="1735" column="9" selection-start-line="1735" selection-start-column="9" selection-end-line="1735" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -1806,8 +1816,8 @@
       <file leaf-file-name="view-orders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view-orders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="35.307693">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.269231">
+              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1892,16 +1902,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/components/sass/header/_navigation.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-45.26923">
-              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -1956,7 +1956,6 @@
         <option value="$PROJECT_DIR$/includes/update_orders.php" />
         <option value="$PROJECT_DIR$/includes/view_details.php" />
         <option value="$PROJECT_DIR$/view_orders.php" />
-        <option value="$PROJECT_DIR$/view-orders.php" />
         <option value="$PROJECT_DIR$/resources/js/app/createNewOrder.js" />
         <option value="$PROJECT_DIR$/resources/components/sass/header/_header.scss" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -1974,6 +1973,7 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/update-order.php" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
+        <option value="$PROJECT_DIR$/view-orders.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
       </list>
     </option>
@@ -2668,7 +2668,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445819136339</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="admin styles change">
+      <created>1445819278941</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1445819278941</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2769,13 +2775,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5818452">
-          <caret line="23" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/foundation/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5384614">
@@ -3115,16 +3114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.384615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1445647907251" expanded="true" signature="456:506" placeholder="SELECT * FRO..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3154,6 +3143,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="31.384615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1445647907251" expanded="true" signature="456:506" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view-orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.269231">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/display_orders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -3164,18 +3171,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view-orders.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="35.307693">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-382.8846">
+          <caret line="1735" column="9" selection-start-line="1735" selection-start-column="9" selection-end-line="1735" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17130919">
-          <caret line="145" column="47" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.3844011">
+          <caret line="172" column="15" selection-start-line="172" selection-start-column="15" selection-end-line="173" selection-end-column="24" />
           <folding />
         </state>
       </provider>
