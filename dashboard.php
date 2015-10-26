@@ -148,11 +148,11 @@ if (!isset($_SESSION['username'])) {
 
                 $row = mysqli_fetch_assoc($select);
 
-                if (!$row) :
-
-                    echo "No current orders in the database";
-
                 ?>
+
+                <?php if (!$row) : ?>
+
+                    <p>No current orders in the database</p>
 
                 <?php else:?>
                     <table class="table table-responsive table-bordered updateOrder">
