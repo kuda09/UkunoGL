@@ -166,7 +166,7 @@ if (!isset($_SESSION['username'])) {
                     </thead>
                     <tbody>
                     <?php
-                    while ($row = mysqli_fetch_assoc($select)) {
+                    while ($row) {
 
                         ?>
                         <tr>
@@ -184,9 +184,7 @@ if (!isset($_SESSION['username'])) {
                                 </form>
                             </td>
                         </tr>
-
                         <?php
-
                         }
                     endif;
                     ?>
