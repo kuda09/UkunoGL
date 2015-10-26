@@ -1796,8 +1796,8 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5027855">
-              <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.26601672">
+              <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -2650,7 +2650,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445818892830</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="admin styles change">
+      <created>1445818910902</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1445818910903</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3156,8 +3162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5027855">
-          <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.26601672">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
           <folding />
         </state>
       </provider>
