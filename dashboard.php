@@ -38,7 +38,8 @@ if (!isset($_SESSION['username'])) {
 
     <main role="main" class="dashBoard">
         <div class="container">
-            <h1> Welcome <?php echo $_SESSION['username'];?> </h1>
+            <h1> Welcome <?php echo $_SESSION['username']; ?> </h1>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eos iste molestiae odio possimus quidem, tenetur voluptates? Aperiam architecto delectus hic nisi provident, quas saepe vitae? Dicta ratione repellat soluta!</p>
         </div>
         <div class="container">
@@ -102,13 +103,13 @@ if (!isset($_SESSION['username'])) {
                             <div class="success">
                                 <?php
 
-                                    echo "You have created a new order successfully" . "<br>";
+                                echo "You have created a new order successfully" . "<br>";
 
-                                    echo "<p>" . "Your order id is " . $order_id . "</p>";
+                                echo "<p>" . "Your order id is " . $order_id . "</p>";
 
                                 ?>
 
-                                <a href="update-order.php?id=<?php echo $order_id;?>" class="btn btnPrimary">view your order</a>
+                                <a href="update-order.php?id=<?php echo $order_id; ?>" class="btn btnPrimary">view your order</a>
                             </div>
                         <?php else: ?>
                             <div class="error">
@@ -143,58 +144,52 @@ if (!isset($_SESSION['username'])) {
             ?>
             <div class="col">
                 <h2>update an order status</h2>
-                    <?php
+                <?php
 
-                    $row = mysqli_fetch_assoc($select);
+                $row = mysqli_fetch_assoc($select);
 
-                    if(!$row ) :
+                if (!$row) :
 
-                        echo "No current orders in the database";
-
-                    ?>
-
-                    <?php else:
-
-                    $row = mysqli_fetch_assoc($select);
-
+                    echo "No current orders in the database";
 
                     ?>
 
-
-
-                <table class="table table-responsive table-bordered updateOrder">
-                    <thead>
-                    <tr>
-                        <td>Order Name</td>
-                        <td>Update</td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php
-                    while ($row = mysqli_fetch_assoc($select)) {
-
-                        ?>
+                <?php else:
+                    $row = mysqli_fetch_assoc($select);
+                    ?>
+                    <table class="table table-responsive table-bordered updateOrder">
+                        <thead>
                         <tr>
-                            <td>
-                                <?php echo $row['order_name'];?>
-                            </td>
-                            <td>
-                                <form action="update-order.php" method="get">
-
-                                    <input type="hidden" value="<?php echo $row['order_id']; ?>" name="id">
-                                    <input type="hidden" value="<?php echo $row['order_name'] ;?>" name="name">
-                                    <button class="btn btnSecondary" type="submit">
-                                        View or Update Order
-                                    </button>
-                                </form>
-                            </td>
+                            <td>Order Name</td>
+                            <td>Update</td>
                         </tr>
+                        </thead>
+                        <tbody>
                         <?php
-                        }
-                    endif;
-                    ?>
-                    </tbody>
-                </table>
+                        while ($row = mysqli_fetch_assoc($select)) {
+
+                            ?>
+                            <tr>
+                                <td>
+                                    <?php echo $row['order_name']; ?>
+                                </td>
+                                <td>
+                                    <form action="update-order.php" method="get">
+
+                                        <input type="hidden" value="<?php echo $row['order_id']; ?>" name="id">
+                                        <input type="hidden" value="<?php echo $row['order_name']; ?>" name="name">
+                                        <button class="btn btnSecondary" type="submit">
+                                            View or Update Order
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <?php } ?>
+                        </tbody>
+                    </table>
+                <?php endif;
+                ?>
+
             </div>
         </div>
 
