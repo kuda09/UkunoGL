@@ -145,6 +145,16 @@ if (!isset($_SESSION['username'])) {
             ?>
             <div class="col">
                 <h2>update an order status</h2>
+                    <?php
+
+                    $row = mysqli_fetch_assoc($select);
+
+                    if(!$row ) :
+
+                        echo "No current orders in the database";
+
+                    ?>
+
 
                 <table class="table table-responsive table-bordered updateOrder">
                     <thead>
@@ -154,16 +164,7 @@ if (!isset($_SESSION['username'])) {
                     </tr>
                     </thead>
                     <tbody>
-
-                    <?php
-
-                    $row = mysqli_fetch_assoc($select);
-
-                    if(!$row ){
-
-                        echo "No current orders in the database";
-
-                    } else {
+                    <?php else:
 
                     while ($row) {
 
@@ -187,7 +188,7 @@ if (!isset($_SESSION['username'])) {
                         <?php
 
                         }
-                    }
+                    endif;
                     ?>
                     </tbody>
                 </table>
