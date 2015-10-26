@@ -1,18 +1,4 @@
-# Switch rewrite engine off in case this was installed under HostPay.
 RewriteEngine On
-
-SetEnv DEFAULT_PHP_VERSION 53
-
-DirectoryIndex index.cgi index.php
-
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /ukinogl/
-RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ukinogl/index.php [L]
-</IfModule>
-
-# END WordPress
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
