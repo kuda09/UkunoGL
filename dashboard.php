@@ -98,8 +98,6 @@ if (!isset($_SESSION['username'])) {
                     if ($_SERVER['REQUEST_METHOD'] == "POST") :
 
                         if ($connect->query($query) == TRUE) :
-
-
                             ?>
                             <div class="success">
                                 <?php
@@ -155,7 +153,14 @@ if (!isset($_SESSION['username'])) {
 
                     ?>
 
-                    <?php else: ?>
+                    <?php else:
+
+                    $row = mysqli_fetch_assoc($select);
+
+
+                    ?>
+
+
 
                 <table class="table table-responsive table-bordered updateOrder">
                     <thead>
@@ -166,7 +171,7 @@ if (!isset($_SESSION['username'])) {
                     </thead>
                     <tbody>
                     <?php
-                    while ($row) {
+                    while ($row = mysqli_fetch_assoc($select)) {
 
                         ?>
                         <tr>

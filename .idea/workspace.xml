@@ -1796,8 +1796,8 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0947075">
-              <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.55013925">
+              <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -1806,7 +1806,7 @@
       <file leaf-file-name="view-orders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view-orders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="41.192307">
+            <state vertical-scroll-proportion="35.307693">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -2632,7 +2632,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445818436261</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="admin styles change">
+      <created>1445818575323</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1445818575323</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3130,7 +3136,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view-orders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.192307">
+        <state vertical-scroll-proportion="35.307693">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -3138,8 +3144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0947075">
-          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.55013925">
+          <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
           <folding />
         </state>
       </provider>
