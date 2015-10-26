@@ -155,6 +155,7 @@ if (!isset($_SESSION['username'])) {
 
                     ?>
 
+                    <?php else: ?>
 
                 <table class="table table-responsive table-bordered updateOrder">
                     <thead>
@@ -164,8 +165,7 @@ if (!isset($_SESSION['username'])) {
                     </tr>
                     </thead>
                     <tbody>
-                    <?php else:
-
+                    <?php
                     while ($row) {
 
                         ?>
