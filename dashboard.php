@@ -159,7 +159,7 @@ if (!isset($_SESSION['username'])) {
 
                     while ($row = mysqli_fetch_assoc($select)) {
 
-                        if(mysqli_num_rows($row) == 0 ){
+                        if(!$row ){
 
                             echo "No current orders in the database";
 

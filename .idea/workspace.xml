@@ -1807,7 +1807,7 @@
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3551532">
-              <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+              <caret line="161" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="224" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -2588,7 +2588,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445817653673</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="admin styles change">
+      <created>1445817705145</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1445817705145</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3093,7 +3099,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3551532">
-          <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+          <caret line="161" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="224" selection-end-column="7" />
           <folding />
         </state>
       </provider>
