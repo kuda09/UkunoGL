@@ -158,6 +158,15 @@ if (!isset($_SESSION['username'])) {
                     <?php
 
                     while ($row = mysqli_fetch_assoc($select)) {
+
+                        if(mysqli_num_rows($row) === 0 ){
+
+                            echo "No current orders in the database";
+
+                        } else {
+
+
+
                         ?>
                         <tr>
                             <td>
@@ -176,6 +185,8 @@ if (!isset($_SESSION['username'])) {
                         </tr>
 
                         <?php
+
+                        }
                     }
                     ?>
                     </tbody>

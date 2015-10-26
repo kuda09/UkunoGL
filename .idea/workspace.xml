@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="inserting the date value for update-order.php file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" afterPath="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/main.css" afterPath="$PROJECT_DIR$/resources/css/main.css" />
+    <list default="true" id="2469d6b1-e868-4517-993f-52cf0a129f9a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UkunoGL.iws" />
@@ -1804,11 +1803,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="112" column="81" selection-start-line="112" selection-start-column="81" selection-end-line="112" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.7339833">
+              <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1846,10 +1845,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_admin.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_admin.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_admin.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4972145">
+            <state vertical-scroll-proportion="9.807693">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#1232#1576#0" expanded="false" />
@@ -1971,9 +1970,9 @@
         <option value="$PROJECT_DIR$/resources/components/sass/header/_navigation.scss" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/_home.scss" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/update-order.php" />
         <option value="$PROJECT_DIR$/resources/components/sass/modules/_admin.scss" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
       </list>
     </option>
   </component>
@@ -2577,7 +2576,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445816775979</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="admin styles change">
+      <created>1445817304497</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1445817304497</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2662,7 +2667,8 @@
     <MESSAGE value="tablet styles modification" />
     <MESSAGE value="htaccess upload" />
     <MESSAGE value="inserting the date value for update-order.php file" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserting the date value for update-order.php file" />
+    <MESSAGE value="admin styles change" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin styles change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3039,22 +3045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="112" column="81" selection-start-line="112" selection-start-column="81" selection-end-line="112" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update-order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="31.384615">
@@ -3075,7 +3065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/sass/modules/_admin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4972145">
+        <state vertical-scroll-proportion="9.807693">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#1232#1576#0" expanded="false" />
@@ -3083,6 +3073,22 @@
             <element signature="e#2306#2359#0" expanded="false" />
             <element signature="e#2380#2964#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7339833">
+          <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
