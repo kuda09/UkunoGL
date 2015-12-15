@@ -1,19 +1,23 @@
 <?php
-session_start();
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>Sample Home Page</title>
+    <title>Full service transportation and distribution management company  - Ukino Global Logistics</title>
 
     <link rel="stylesheet" href="resources/css/main.css">
     <script data-main="resources/js/app" src="resources/js/require.js"></script>
+
 </head>
+
 <body>
 
     <header class="siteHeader">
+
         <div class="container">
             <div class="col">
                 <div class="logoContainer">
@@ -25,11 +29,13 @@ session_start();
                     <p class="headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
                     <p class="tel">Telephone: <a href="tel:+17184134530">(718) 413-4530</a>
-                <span class="socialIcons">
-                    <a href="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="google-plus"><i class="fa fa-google-plus"></i></a>
-                 </span>
+
+                        <span class="socialIcons">
+                            <a href="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="google-plus"><i class="fa fa-google-plus"></i></a>
+                         </span>
+
                     </p>
                 </div>
                 <nav class="navigation" role="navigation">
@@ -48,11 +54,12 @@ session_start();
                 <script>
                     require(["app/siteNavigation"], function (siteNavigation) {
 
-                        var runMobileMenu  = siteNavigation();
+                        var runMobileMenu = siteNavigation();
                     })
                 </script>
             </div>
         </div>
+
     </header>
 
     <main role="main">
@@ -96,11 +103,9 @@ session_start();
 
         <section class="homeMain">
             <div class="container">
-                <h1>A world-renowned divorce and family law service specialising in substantial and complex cases often with an international element
+                <h1>Ukino Global Logistics is a full service transportation and distribution management company supporting valued clients throughout the United States and across the globe.
                 </h1>
-                <em>Lorem ipsum dolor sit amet</em>
-
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <em>Ukino Global Logistics thrives on a strong reputation based on excellence, trustworthiness, integrity, and personal accountability.</em>
             </div>
         </section>
 
@@ -108,26 +113,26 @@ session_start();
             <div class="container">
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Service Map</h3>
+                        <h3>Air Freight</h3>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
+                        <p>Ukino Global Logistics offers expedited international air freight services guaranteed to meet time-definite needs for our valuable clients across the globe.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper">
+                        <h3>Sea Freight</h3>
+
+                        <p>Ukino Global Logistics specializes in the seamless movement of full container load and less-than-container load to all major international ports.
                         </p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Safety & Compliance</h3>
+                        <h3>Trucking</h3>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="wrapper">
-                        <h3>Set Apart</h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, commodi cum distinctio dolor earum, illum impedit in ipsum minus neque omnis qui, quidem quod repellat saepe sunt tempore voluptatum.
-
+                        <p>Ukino Global Logistics have dedicated service vehicles designed to provide transportation and distribution management solutions to all our domestic clients allowing them the ability to reduce shipping costs as well as improving their service to their customers.
                         </p>
                     </div>
                 </div>
@@ -139,11 +144,10 @@ session_start();
     <footer class="siteFooter">
 
 
-
         <div class="footerRow1">
 
             <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea, id molestias optio quibusdam similique ullam veritatis voluptatum? Cumque iusto laborum minima minus vel voluptatum. At dolores error laboriosam perferendis.</p>
+                <p> We are solution driven, instilling a sense of urgency in everything we do, and highly committed to safety. We work hard to deliver exceptional customer service by providing tailored solutions and watching every little detail.</p>
             </div>
 
         </div>
@@ -166,4 +170,5 @@ session_start();
     </footer>
 
 </body>
+
 </html>
