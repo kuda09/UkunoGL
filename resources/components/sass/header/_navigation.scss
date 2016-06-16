@@ -54,7 +54,7 @@
     li {
       display: inline-block;
       text-transform: capitalize;
-      @include rem(margin-right, 30px);
+      @include rem(margin-right, 10px);
       position: relative;
       border-bottom: 3px solid $white;
 

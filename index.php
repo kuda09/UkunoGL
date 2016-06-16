@@ -26,7 +26,7 @@
             </div>
             <div class="col">
                 <div class="contactContainer">
-                    <p class="headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
 
                     <p class="tel">Telephone: <a href="tel:+17184134530">(718) 413-4530</a>
 
@@ -45,7 +45,7 @@
                         <li class="current"><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="carriers.html">Carriers</a></li>
+                        <li><a href="safety-and-compliance.html">Safety & Compliance</a></li>
                         <li><a href="faqs.html">FAQS</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="leadCapture">
                     <h3>Track your order</h3>
-                    <p>Enter your six digit tracking number to view details about your order</p>
+                    <p>Enter tracking number to view details about your order</p>
 
 
                     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="trackingForm" method="post">
@@ -113,27 +113,35 @@
             <div class="container">
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Air Freight</h3>
+                        <h3>Core Values</h3>
 
-                        <p>Ukino Global Logistics offers expedited international air freight services guaranteed to meet time-definite needs for our valuable clients across the globe.
+                        <p>Ukino Global Logistics thrives on a strong reputation based on excellence, trustworthiness, integrity, and personal accountability.
                         </p>
+
+                        <small><a href="safety-and-compliance.html">Read more</a></small>
 
                     </div>
                 </div>
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Sea Freight</h3>
+                        <h3>Strategy & Solutions</h3>
 
-                        <p>Ukino Global Logistics specializes in the seamless movement of full container load and less-than-container load to all major international ports.
+                        <p>The satisfaction of all our clients is of utmost importance in our daily business service design.
                         </p>
+
+                        <small><a href="safety-and-compliance.html">Read more</a></small>
+
                     </div>
                 </div>
                 <div class="col">
                     <div class="wrapper">
-                        <h3>Trucking</h3>
+                        <h3>Safety & Compliance</h3>
 
-                        <p>Ukino Global Logistics have dedicated service vehicles designed to provide transportation and distribution management solutions to all our domestic clients allowing them the ability to reduce shipping costs as well as improving their service to their customers.
+                        <p>Ukino Global Logistics has implemented safety and compliance policies and procedures that contribute to a safer and more reliable organization.
                         </p>
+
+                        <small><a href="safety-and-compliance.html">Read more</a></small>
+
                     </div>
                 </div>
             </div>

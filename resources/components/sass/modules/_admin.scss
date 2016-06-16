@@ -23,12 +23,13 @@
   .error {
     color: $white;
     background: $red;
-    padding: 5px;
+
     margin-bottom: 10px;
 
     &.active{
 
       display: block;
+      padding: 5px;
     }
   }
 

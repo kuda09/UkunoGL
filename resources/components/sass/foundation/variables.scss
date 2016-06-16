@@ -7,7 +7,7 @@ $fontHighlight: 'Cardo', serif;
 $fontLight: 'Open Sans', sans-serif;
 
 //Breakpoints
-$mediaMobilePortrait: '(min-width: 280px)';
+$mediaMobilePortrait: '(min-width: 280px) and (max-width: 519px)';
 $mediaMobile: '(max-width: 520px)';
 $mediaTabletDesktop: '(min-width: 521px)';
 $mediaMobileLandscape: '(min-width: 521px) and (max-width: 675px)';

@@ -28,7 +28,7 @@ if (!isset($_SESSION['order'])) {
             </div>
             <div class="col">
                 <div class="contactContainer">
-                    <p class="headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
 
                     <p class="tel">Telephone: <a href="tel:+17184134530">(718) 413-4530</a>
                 <span class="socialIcons">
@@ -45,7 +45,7 @@ if (!isset($_SESSION['order'])) {
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="carriers.html">Carriers</a></li>
+                        <li><a href="safety-and-compliance.html">Safety & Compliance</a></li>
                         <li><a href="faqs.html">FAQS</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>

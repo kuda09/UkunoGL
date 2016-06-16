@@ -1,6 +1,4 @@
 .siteHeader {
-  @include rem(padding, 20px);
-
   @media #{$mediaMobile} {
 
     padding: 0;
@@ -31,7 +29,7 @@
 
   .logoContainer {
 
-    margin-top: 43px;
+    margin-top: 10px;
 
     @media #{$mediaMobile} {
 

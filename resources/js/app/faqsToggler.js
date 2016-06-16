@@ -23,8 +23,6 @@ define(["jquery"], function ($) {
     var handleToggle = function (e) {
 
         e.preventDefault();
-
-
         var $this = $(this);
 
         $this
